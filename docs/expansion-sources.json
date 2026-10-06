@@ -1,0 +1,352 @@
+{
+  "asOf": "2026-10-05",
+  "sources": [
+    {
+      "id": "exp-src-esdc",
+      "name": "ESDC 身障與無障礙報告目錄",
+      "url": "https://www.canada.ca/en/employment-social-development/corporate/reports/accessibility-disability.html",
+      "publisher": "Employment and Social Development Canada",
+      "country": "加拿大",
+      "business": "身障就業／無障礙",
+      "documentTypes": [
+        "報告與策略目錄"
+      ],
+      "sourceDate": "2026-01-21",
+      "sourceDateType": "頁面日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "年度報告HTML/PDF及archived publications連結；未找到通用更正或撤回feed",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "加拿大錨點只有ESDC泛首頁，缺專門身障就業入口",
+      "coverageAfter": "新增專門報告目錄，核到就業策略年報",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-asc",
+      "name": "加拿大無障礙標準資料庫",
+      "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database",
+      "publisher": "Accessibility Standards Canada",
+      "country": "加拿大",
+      "business": "身障就業／雇主實務",
+      "documentTypes": [
+        "標準",
+        "草案",
+        "技術指南"
+      ],
+      "sourceDate": null,
+      "sourceDateType": "依各標準個別日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "designation／Published或Draft／Date posted／Publication date分欄；撤回入口unknown",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "缺加拿大身障就業標準及修訂狀態入口",
+      "coverageAfter": "核到Employment REV-2025發布與狀態欄",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-jeed",
+      "name": "JEED 身障雇用手冊",
+      "url": "https://www.jeed.go.jp/disability/data/handbook/",
+      "publisher": "高齢・障害・求職者雇用支援機構（JEED）",
+      "country": "日本",
+      "business": "身障就業／招募與留任",
+      "documentTypes": [
+        "手冊",
+        "Q&A",
+        "案例"
+      ],
+      "sourceDate": null,
+      "sourceDateType": "未見入口發布或更新日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "candidate_fetch_failed_in_reader",
+        "url": "https://www.jeed.go.jp/general/rss/news.xml",
+        "error": "web reader: 400 Unsupported content-type: text/xml",
+        "endToEndVerified": false,
+        "note": "是閱讀器不支援XML，不能判定來源失效；未訂閱"
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "逐手冊HTML與數位書；未找到本入口通用修訂表",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原候選只有首頁與RSS，缺執行指南層",
+      "coverageAfter": "核到招募、配置、留任、合理調整指南入口",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-kead",
+      "name": "KEAD 雇主就業諮詢",
+      "url": "https://www.kead.or.kr/en/empcnstg/cntntsPage.do?menuId=MENU1387",
+      "publisher": "Korea Employment Agency for Persons with Disabilities",
+      "country": "韓國",
+      "business": "身障就業／雇主支援",
+      "documentTypes": [
+        "執行服務指南"
+      ],
+      "sourceDate": null,
+      "sourceDateType": "未見發布或更新日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "英文指南；韓文與英文版本時差unknown；更正/撤回unknown",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原候選只有首頁，缺雇主服務流程",
+      "coverageAfter": "核到工作分析、配對及任職後支援流程",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-vdab",
+      "name": "VDAB 個別量身就業支援",
+      "url": "https://werkgevers.vdab.be/wegwijs/gezondheidsprobleem/individueel-maatwerk",
+      "publisher": "VDAB",
+      "country": "比利時（佛蘭德）",
+      "business": "身障就業／雇主補助",
+      "documentTypes": [
+        "方案指南"
+      ],
+      "sourceDate": null,
+      "sourceDateType": "未見發布或更新日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "指南連結申請及延長頁；附件版本日期未驗",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原候選只有新聞入口，欠實施流程",
+      "coverageAfter": "核到VDAB認定與補助申請分工",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-jobaccess",
+      "name": "JobAccess EAF 指南與附件",
+      "url": "https://www.jobaccess.gov.au/resource/employment-assistance-fund-guide",
+      "publisher": "Australian Government Department of Social Services／JobAccess",
+      "country": "澳洲",
+      "business": "身障就業／職場合理調整",
+      "documentTypes": [
+        "補助指南與附件"
+      ],
+      "sourceDate": "2026-06-30",
+      "sourceDateType": "Last updated",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "PDF Summary of changes列版本異動；入口更新日與生效日分存",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原候選僅新聞快取，缺現行執行指南",
+      "coverageAfter": "沿指南頁打開June 2026 Version 4.7 FINAL PDF",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-oecd-api",
+      "name": "OECD 資料API與版本說明",
+      "url": "https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html",
+      "publisher": "OECD",
+      "country": "跨國",
+      "business": "勞動統計／資料修訂",
+      "documentTypes": [
+        "API及版本文件"
+      ],
+      "sourceDate": "2025-04-30",
+      "sourceDateType": "頁面標示日期，未細分publication/update",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "documented_official_free_sdmx",
+        "documentationUrl": "https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html",
+        "versionGuidanceUrl": "https://www.oecd.org/en/data/insights/data-explainers/2024/11/Api-best-practices-and-recommendations.html",
+        "endToEndVerified": false,
+        "note": "僅讀官方文件；未執行API、未接受新協議、未啟用排程"
+      },
+      "revisionTracking": "best practices提供ValidFrom及dataset version；未跑實際API查詢",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原有employment與newsroom，欠資料結構版本",
+      "coverageAfter": "核到SDMX API及contentconstraint版本/ValidFrom說明",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-oecd-status",
+      "name": "OECD 資料平台異動與可用性",
+      "url": "https://www.oecd.org/en/data/insights/data-explainers/2025/02/OECD-Data-Explorer-News.html",
+      "publisher": "OECD",
+      "country": "跨國",
+      "business": "勞動統計／修訂與抓取可靠度",
+      "documentTypes": [
+        "資料方法異動",
+        "停機與限流公告"
+      ],
+      "sourceDate": "2026-09-30",
+      "sourceDateType": "頁面日期；各公告另有日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "按公告日期定位結構變更/已解決問題；不把同URL視為單事件",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "缺方法改版與失敗原因辨识入口",
+      "coverageAfter": "核到勞動低度利用率分母改版及近期限流公告",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-ilostat",
+      "name": "ILOSTAT bulk資料與metadata",
+      "url": "https://ilostat.ilo.org/data/bulk/",
+      "publisher": "ILO Statistics Branch",
+      "country": "全球",
+      "business": "勞動統計／版本與期間",
+      "documentTypes": [
+        "資料目錄",
+        "CSV.gz",
+        "字典"
+      ],
+      "sourceDate": null,
+      "sourceDateType": "網頁未見日期；PDF另有2024-02-16更新日",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "official_bulk_download_documented",
+        "format": "CSV.gz plus CSV metadata dictionaries",
+        "endToEndVerified": false,
+        "note": "不是已驗證API；目錄實際下載與parser未測"
+      },
+      "revisionTracking": "HTML與舊PDF頻率不一致；以目前HTML作描述，保留差異，未驗實際每日執行",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原ILO一般新聞不足以抓統計修訂",
+      "coverageAfter": "核到last.update、data.start/end、obs_status與note_source",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-apec",
+      "name": "APEC HRDWG 工作與技能議題",
+      "url": "https://www.apec.org/what-we-do/som-steering-committee-on-economic-and-technical-cooperation/human-resources-development",
+      "publisher": "APEC Secretariat／HRDWG",
+      "country": "APEC",
+      "business": "技能人才／產學合作",
+      "documentTypes": [
+        "工作組進程",
+        "正式文件與研究"
+      ],
+      "sourceDate": "2026-07",
+      "sourceDateType": "Last page update（月精度）",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "工作組頁仍含2025與2026內容；會議計畫不能當成已完成；PDF路徑不作出版日",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "原為overview子頁候選，欠目前工作頁及報告原文",
+      "coverageAfter": "核到HRDWG工作頁、2026技能人才正式報告",
+      "newUrlComparedWithHandoff": true
+    },
+    {
+      "id": "exp-src-jilpt",
+      "name": "JILPT 勞動統計正誤入口",
+      "url": "https://www.jil.go.jp/kokunai/statistics/seigo/index.html",
+      "publisher": "労働政策研究・研修機構（JILPT）",
+      "country": "日本",
+      "business": "勞動統計／原文更正",
+      "documentTypes": [
+        "更正通知與替換附件"
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceDateType": "本轮所核最新更正條目日期",
+      "status": "official_content_read",
+      "checkedAt": "2026-10-05T09:17:29+00:00",
+      "fetchStatus": "readable_via_web_retrieval",
+      "cacheCaveat": "檢索工具可能返回快取；本次讀取不保證網站即時狀態",
+      "rss": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "api": {
+        "status": "unknown",
+        "endToEndVerified": false
+      },
+      "revisionTracking": "按出版品、表號、修正日期追踪；不把更正當新統計期間",
+      "withdrawalStatus": "unknown",
+      "coverageBefore": "缺可逐條追原文更正與附件替換入口",
+      "coverageAfter": "核到2026-09-16表4-2更正與替換PDF",
+      "newUrlComparedWithHandoff": true
+    }
+  ],
+  "scope": "11個已讀官方來源入口；RSS與API均未端到端驗證，未建立訂閱或排程"
+}

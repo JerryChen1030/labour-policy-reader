@@ -1,0 +1,62 @@
+{
+  "format": "static-policy-reader-portable-v1",
+  "preparedAt": "2026-10-05",
+  "entrypoint": "index.html",
+  "dataAsOf": "2026-10-05",
+  "runtimeDependencies": [],
+  "backend": false,
+  "modelApiCalls": false,
+  "automaticScheduling": false,
+  "counts": {
+    "inputCsvFiles": 4,
+    "publicImportedReferences": 94,
+    "officialReadings": 16,
+    "sourceDirectoryUrls": 91,
+    "withheldOriginalRows": 29
+  },
+  "excludes": [
+    "raw attachments",
+    "private research",
+    "credentials",
+    "Git metadata",
+    "platform hosting configuration"
+  ],
+  "files": {
+    "styles.css": {
+      "bytes": 7600,
+      "sha256": "cdf761c3feedacb4c3184d4e44b380025d419a9f6f6fb90a7895283bdb95dbc7"
+    },
+    "app.js": {
+      "bytes": 7606,
+      "sha256": "06cc3e58571d1d4c80f27837cc285c128789cb065c80590632af17d365a04e9a"
+    },
+    "data.json": {
+      "bytes": 19899,
+      "sha256": "a1933ed1e938212680e32b7f907bc3c3dc612b98707d3fc190c65c2360c26626"
+    },
+    "expansion-sources.json": {
+      "bytes": 14474,
+      "sha256": "1d10d0cba180282480c3c2ffe64c24e36aada3cca342b984eb2803ec5c174c2e"
+    },
+    "README.md": {
+      "bytes": 3100,
+      "sha256": "43706078e87cb75e5900e579cf01762b0d50e52e9c285d212a5fddeae7624f67"
+    },
+    "grok.json": {
+      "bytes": 171656,
+      "sha256": "66429bcd3e478edbf655a8a15b975dec463269b5c826051f152fb82f799c680a"
+    },
+    "strategy.json": {
+      "bytes": 37532,
+      "sha256": "550a9bfb180ee64907d946c166b565c5610501464af6dab875c4121b371a5421"
+    },
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "index.html": {
+      "bytes": 70539,
+      "sha256": "e0a26f5c36d6b1422c679b6087474a8c9e78557a29ae131f5bb7de029147f5d0"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "public-policy-source-release-v1",
+  "preparedAt": "2026-10-06",
+  "publicationStatus": "prepared; verify remote commit and Pages deployment separately",
+  "files": {
+    ".gitignore": {
+      "bytes": 86,
+      "sha256": "83e95fd186e19a75d660382460dcd41b4896f563992db6ab88b6e8b5ccc4304d"
+    },
+    "README.md": {
+      "bytes": 4831,
+      "sha256": "32898f6e961999be52fc69fccea75c63e70bc68744d0fc800d2aa9f49b32181c"
+    },
+    "collector/.gitignore": {
+      "bytes": 54,
+      "sha256": "7b1842ff8cd2c1a9b8c84d27ca2f391af82be7ec978a1a9bf09541a52f4f0d11"
+    },
+    "collector/PACKAGE-MANIFEST.json": {
+      "bytes": 1430,
+      "sha256": "5045c4f3441d136b989f33be6bf2bc527b709f8cda67658caafe9c1a19ed74b3"
+    },
+    "collector/README.md": {
+      "bytes": 16820,
+      "sha256": "1adcea7322059d6dd48c03af04abff111975b6362e302193ae836b6beec9c40f"
+    },
+    "collector/TEST-RESULTS.txt": {
+      "bytes": 3887,
+      "sha256": "a3d3986abefd224080f34fd6465e521be2ef97b681f422df8593677e1b1eff14"
+    },
+    "collector/collector.py": {
+      "bytes": 14211,
+      "sha256": "4d4a832b7918e745abf541f0b22e02294a6f671eda868f10927634c1bfaf0e30"
+    },
+    "collector/sources.json": {
+      "bytes": 1733,
+      "sha256": "4d42b3bcc3ff12322f1b9220696bd7df4eea8cc97f2b6ca3c94b21d3df99215d"
+    },
+    "collector/templates/manual-check.yml": {
+      "bytes": 1305,
+      "sha256": "1bc74b866ae6f28fbec8ba975333934a65eca9b1c16ac3a1af2a823424f72afd"
+    },
+    "collector/tests/fixtures/atom.xml": {
+      "bytes": 394,
+      "sha256": "73fa0bb9845fa6853544142808012a555e0a22a50f39a4a812ec01105d744d86"
+    },
+    "collector/tests/fixtures/rss.xml": {
+      "bytes": 395,
+      "sha256": "d9a372190a14f04b725d78855f9b02156032e1ac8b7f40ac24eb617c630c2dfa"
+    },
+    "collector/tests/test_collector.py": {
+      "bytes": 14721,
+      "sha256": "a64bc675781c680f9985f0258370890876f6aa049fdb93edd0d3ea988a4c339e"
+    },
+    "docs/.nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/README.md": {
+      "bytes": 3100,
+      "sha256": "43706078e87cb75e5900e579cf01762b0d50e52e9c285d212a5fddeae7624f67"
+    },
+    "docs/app.js": {
+      "bytes": 7606,
+      "sha256": "06cc3e58571d1d4c80f27837cc285c128789cb065c80590632af17d365a04e9a"
+    },
+    "docs/data.json": {
+      "bytes": 19899,
+      "sha256": "a1933ed1e938212680e32b7f907bc3c3dc612b98707d3fc190c65c2360c26626"
+    },
+    "docs/expansion-sources.json": {
+      "bytes": 14474,
+      "sha256": "1d10d0cba180282480c3c2ffe64c24e36aada3cca342b984eb2803ec5c174c2e"
+    },
+    "docs/grok.json": {
+      "bytes": 171656,
+      "sha256": "66429bcd3e478edbf655a8a15b975dec463269b5c826051f152fb82f799c680a"
+    },
+    "docs/index.html": {
+      "bytes": 70539,
+      "sha256": "e0a26f5c36d6b1422c679b6087474a8c9e78557a29ae131f5bb7de029147f5d0"
+    },
+    "docs/manifest.json": {
+      "bytes": 1765,
+      "sha256": "f38857957c0b79964f001eca46b1d621af169f8465160d15d5b5e5324cdd3682"
+    },
+    "docs/strategy.json": {
+      "bytes": 37532,
+      "sha256": "550a9bfb180ee64907d946c166b565c5610501464af6dab875c4121b371a5421"
+    },
+    "docs/styles.css": {
+      "bytes": 7600,
+      "sha256": "cdf761c3feedacb4c3184d4e44b380025d419a9f6f6fb90a7895283bdb95dbc7"
+    },
+    "tools/verify_public.py": {
+      "bytes": 1702,
+      "sha256": "6c6caafd79c9089db2d2a272733fbffba3eda36c7360ba89217973c9512ba0fa"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# DORMANT TEMPLATE: move to .github/workflows/manual-check.yml only after approval.
+# No schedule, deployment, push, secrets, paid API, or candidate upload.
+name: Manual provider-free collector check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: manual-policy-collector-check
+  cancel-in-progress: false
+jobs:
+  offline-and-disabled-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Offline synthetic tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Confirm default sources remain disabled
+        run: |
+          python3 -c 'import json; assert not any(s.get("enabled") for s in json.load(open("sources.json"))["sources"])'
+      - name: Disabled-source smoke (no network)
+        run: python3 collector.py --state-dir private-state
+# Before activation, review and pin checkout to a vetted full commit SHA.
+# This checks portability only. The runner is ephemeral and does not retain a queue.
+# Real collection: run the manual CLI on a separately administered persistent machine.
+# Do not enable collection in a public Actions log/artifact without reviewing privacy,
+# state persistence, quotas, and publication permissions first.

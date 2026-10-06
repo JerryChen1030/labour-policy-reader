@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "notice": "Three documented URLs; 2026-10-06 CLI attempts failed at DNS before HTTP. All disabled; manual network and reuse review required.",
+  "sources": [
+    {
+      "id": "jp-mhlw-news",
+      "url": "https://www.mhlw.go.jp/stf/news.rdf",
+      "allowed_hosts": [
+        "www.mhlw.go.jp"
+      ],
+      "enabled": false,
+      "verification": "manual_needs_fix_dns_unverified",
+      "documentation": "https://www.mhlw.go.jp/rss/index.html",
+      "last_validation_attempt_utc": "2026-10-06T00:55:29.899754Z",
+      "last_validation_result": "gaierror_before_http",
+      "reuse_review": "restricted_feed_redistribution_do_not_use_for_public_site"
+    },
+    {
+      "id": "kr-moel-policy",
+      "url": "https://www.moel.go.kr/rss/policy.do",
+      "allowed_hosts": [
+        "www.moel.go.kr"
+      ],
+      "enabled": false,
+      "verification": "manual_needs_fix_dns_unverified",
+      "documentation": "https://www.moel.go.kr/site/rss/rssList.do",
+      "last_validation_attempt_utc": "2026-10-06T00:55:29.899754Z",
+      "last_validation_result": "gaierror_before_http",
+      "reuse_review": "review_original_document_terms_before_any_publication"
+    },
+    {
+      "id": "tw-wda-news",
+      "url": "https://www.wda.gov.tw/OpenData.aspx?SN=C2BAAD4ED99D7E40",
+      "allowed_hosts": [
+        "www.wda.gov.tw"
+      ],
+      "enabled": false,
+      "documentation": "https://www.wda.gov.tw/en/Rss.aspx",
+      "verification": "manual_needs_fix_dns_unverified",
+      "last_validation_attempt_utc": "2026-10-06T00:57:28.755965Z",
+      "last_validation_result": "gaierror_before_http",
+      "reuse_review": "reading_only_notice_review_original_document_rights_before_publication"
+    }
+  ]
+}

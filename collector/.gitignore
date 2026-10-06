@@ -1,0 +1,6 @@
+private-state/
+__pycache__/
+*.pyc
+.env
+*.zip
+*.tar.gz

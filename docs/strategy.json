@@ -1,0 +1,815 @@
+{
+  "asOf": "2026-10-05",
+  "scope": "5份交接文件890行；對照4份CSV123筆。這是工作流文件與交付物分析，不是Grok平台全部能力測試。",
+  "evidenceLayers": [
+    {
+      "level": "documented_content",
+      "label": "附檔內容",
+      "text": "已完整閱讀5份交接文件，能確認其中記載的方法與設定。"
+    },
+    {
+      "level": "documented_design",
+      "label": "文件任務設定",
+      "text": "四條蒐集主題線加一個收斂編輯；有範圍、來源、查詢詞、時段、格式與去重要求。設定不等於已執行。"
+    },
+    {
+      "level": "self_reported_operation",
+      "label": "文件自述",
+      "text": "RSS可用性、交叉查證、記憶與上傳等敘述缺少可重播日誌，不承接為本輪已驗證狀態。"
+    },
+    {
+      "level": "artifact_or_current_check",
+      "label": "交付物／本輪證據",
+      "text": "4份CSV均有UTF-8 BOM與固定10欄；可見分工、優先序、來源和更正批次。本輪另有限檢視4個公開入口，沒有測試原系統排程。"
+    },
+    {
+      "level": "unknown",
+      "label": "尚未證實",
+      "text": "排程是否啟用、每站掃描完成率、搜尋工具權限、完整記憶、社群覆蓋、遠端上傳與失敗重試。"
+    }
+  ],
+  "lanes": [
+    {
+      "name": "國際勞動與市場",
+      "topics": [
+        "勞動法規與判例",
+        "非APEC國際勞動政策",
+        "基金與年金",
+        "國際職安"
+      ],
+      "routing": "身障與HRDWG交專題線；一般APEC另列。"
+    },
+    {
+      "name": "APEC整體進程",
+      "topics": [
+        "時程",
+        "會議動態",
+        "正式文件",
+        "輔助新聞"
+      ],
+      "routing": "HRDWG、CBN與相關人力資源專題不混入整體進程線。"
+    },
+    {
+      "name": "國內勞政輿情",
+      "topics": [
+        "部會層級爭議",
+        "新回應與實質進展"
+      ],
+      "routing": "地方爭議未升至部會、無新事實舊聞不主報；個案須另做公開審查。"
+    },
+    {
+      "name": "身障就業與國際合作",
+      "topics": [
+        "身障就業制度",
+        "HRDWG／CBN",
+        "公開合作機構動態"
+      ],
+      "routing": "比較錨點為日本、韓國、新加坡、澳洲、加拿大；合作名單以官方公開頁再確認。"
+    },
+    {
+      "name": "收斂編輯",
+      "topics": [
+        "去重",
+        "優先序",
+        "摘要",
+        "週報CSV"
+      ],
+      "routing": "只使用蒐集線提交內容；缺件標缺，不自行補造。"
+    }
+  ],
+  "collectionMethods": [
+    {
+      "name": "來源層級",
+      "text": "正式政策、法規判決、官方統計及機關公告優先；媒體作發現線索；社群只補充。來源品質和逐項核實是不同維度。"
+    },
+    {
+      "name": "網頁與RSS並行",
+      "text": "RSS／Atom僅防漏，不取代官方網頁、全文與時程交叉核對；文件自稱有效的feed仍須在執行環境測試解析、日期與更新。"
+    },
+    {
+      "name": "多語檢索",
+      "text": "文件提供中英及部分日韓關鍵字；有多語來源不等於每頁全文已讀或社群完整覆蓋。"
+    },
+    {
+      "name": "覆蓋矩陣",
+      "text": "按國家、主題與文件類型檢查缺口；優先補OECD、VDAB、澳加身障及JEED／KEAD，避免大量個案新聞擠掉制度比較。"
+    }
+  ],
+  "deduplication": {
+    "documented": "URL或機構＋事件／文件名＋日期；實質新事實才更新；原歷史去重資料未隨交接提供。",
+    "recommended": "分開文件、事件和更新，保留canonical URL、event ID、update ID、日期與更正關係。共用日程URL不代表相同事件，不同轉載也不代表獨立事件。"
+  },
+  "portability": {
+    "canReconstruct": [
+      "任務範圍與分工",
+      "來源與關鍵字候選",
+      "篩選、摘要及優先序規格",
+      "資料欄位與時段意圖",
+      "去重與查證設計"
+    ],
+    "notAutomaticallyTransferred": [
+      "工具或帳號權限",
+      "完整歷史去重記憶",
+      "已啟用排程與假日判定",
+      "社群全文或完整覆蓋",
+      "遠端儲存同步與成功紀錄"
+    ],
+    "summary": "能重建方法，不能僅靠提示詞保證原平台能力、連接與持續執行。"
+  },
+  "schedule": {
+    "status": "documented_only_not_enabled_by_this_import",
+    "label": "文件記載時段，不是本站已啟用排程",
+    "siteState": "本次僅整合閱讀資料與方法；未建立上述排程、訂閱或自動發布。"
+  },
+  "sources": [
+    {
+      "url": "http://en.kremlin.ru/events/president/news",
+      "host": "en.kremlin.ru",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "http://www.keidanren.or.jp/abac/2026/",
+      "host": "keidanren.or.jp",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://ec.europa.eu/social/",
+      "host": "ec.europa.eu",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://jobaccess.gov.au/news",
+      "host": "jobaccess.gov.au",
+      "kind": "official_or_institutional_entry",
+      "status": "cached_page_returned",
+      "checkNote": "2026-10-05 檢索器返回新聞頁（標示約兩月前抓取）；未證實當日即時狀態。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://ministers.dss.gov.au/",
+      "host": "ministers.dss.gov.au",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://news.calpers.ca.gov/feed",
+      "host": "news.calpers.ca.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://news.ontario.ca/",
+      "host": "news.ontario.ca",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://press.hse.gov.uk/",
+      "host": "press.hse.gov.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://press.hse.gov.uk/feed/",
+      "host": "press.hse.gov.uk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.apec.org/",
+      "host": "apec.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.apec.org/feeds/rss",
+      "host": "apec.org",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.apec.org/press",
+      "host": "apec.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.apec.org/what-we-achieved/newsroom",
+      "host": "apec.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.apec.org/what-we-do/som-steering-committee-on-economic-and-technical-cooperation/human-resources-development/overview--human-resources-development-working-group",
+      "host": "apec.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.apec2026.cn/",
+      "host": "apec2026.cn",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.apec2026.cn/node_198.html",
+      "host": "apec2026.cn",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.blf.gov.tw/",
+      "host": "blf.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.bli.gov.tw/",
+      "host": "bli.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.businessanddisability.org/",
+      "host": "businessanddisability.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.calpers.ca.gov/page/newsroom",
+      "host": "calpers.ca.gov",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.canada.ca/en/employment-social-development.html",
+      "host": "canada.ca",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.cppinvestments.com/newsroom/",
+      "host": "cppinvestments.com",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.gov.uk/employment-tribunal-decisions",
+      "host": "gov.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.gov.uk/employment-tribunal-decisions.atom",
+      "host": "gov.uk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-work-pensions",
+      "host": "gov.uk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=department-for-work-pensions",
+      "host": "gov.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.gov.uk/search/policy-papers-and-consultations.atom?organisations%5B%5D=department-for-work-pensions",
+      "host": "gov.uk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.gov.uk/search/policy-papers-and-consultations?organisations%5B%5D=department-for-work-pensions",
+      "host": "gov.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.gpif.go.jp/en/",
+      "host": "gpif.go.jp",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.gpif.go.jp/en/rss.xml",
+      "host": "gpif.go.jp",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.hseni.gov.uk/news",
+      "host": "hseni.gov.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.ilo.org/",
+      "host": "ilo.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.ilo.org/all-news-for-topic?cf0=1911",
+      "host": "ilo.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.ilo.org/resource/news",
+      "host": "ilo.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.ilosh.gov.tw/",
+      "host": "ilosh.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/",
+      "host": "info.gov.hk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/rss/general_zh.xml",
+      "host": "info.gov.hk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.jeed.go.jp/",
+      "host": "jeed.go.jp",
+      "kind": "official_or_institutional_entry",
+      "status": "page_content_inspected",
+      "checkNote": "2026-10-05 檢視官方首頁；身障就業與職訓入口可讀。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.jeed.go.jp/general/rss/news.xml",
+      "host": "jeed.go.jp",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.judiciary.uk/feed/judgments/",
+      "host": "judiciary.uk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.judiciary.uk/judgments/",
+      "host": "judiciary.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.kead.or.kr/",
+      "host": "kead.or.kr",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.leforem.be/a-propos/communiques-presse.html",
+      "host": "leforem.be",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.legislation.gov.uk/new",
+      "host": "legislation.gov.uk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.legislation.gov.uk/new/data.feed",
+      "host": "legislation.gov.uk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.mfa.gov.cn/fyrbt_673021/",
+      "host": "mfa.gov.cn",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.mfa.gov.cn/web/fyrbt_673021/",
+      "host": "mfa.gov.cn",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.mhlw.go.jp/",
+      "host": "mhlw.go.jp",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/news.rdf",
+      "host": "mhlw.go.jp",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.moel.go.kr/",
+      "host": "moel.go.kr",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.moel.go.kr/rss/notice.do",
+      "host": "moel.go.kr",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.mol.gov.tw/1607/1632/1633/",
+      "host": "mol.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.mom.gov.sg/newsroom",
+      "host": "mom.gov.sg",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nbim.no/en/news-and-insights/",
+      "host": "nbim.no",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.news.gov.hk/en/categories/finance/",
+      "host": "news.gov.hk",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.news.gov.hk/en/categories/finance/html/articlelist.rss.xml",
+      "host": "news.gov.hk",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.nlrb.gov/news-outreach/news-story",
+      "host": "nlrb.gov",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/resources/rss-feeds",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/rss.xml",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/rss/rssAnnouncements.xml",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/rss/rssAppellateCourt.xml",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/rss/rssBoardDecisions.xml",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/rss/rssPressReleases.xml",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.nlrb.gov/rss/rssWeeklySummaries.xml",
+      "host": "nlrb.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.oecd.org/en/about/newsroom.html",
+      "host": "oecd.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.oecd.org/en/topics/employment.html",
+      "host": "oecd.org",
+      "kind": "official_or_institutional_entry",
+      "status": "page_content_inspected",
+      "checkNote": "2026-10-05 檢視官方就業主題頁；內容可讀。未逐篇核實政策。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.osha.gov.tw/",
+      "host": "osha.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.osha.gov/news/newsreleases",
+      "host": "osha.gov",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.osha.gov/news/newsreleases.xml",
+      "host": "osha.gov",
+      "kind": "feed_candidate",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.sgenable.sg/news-insights",
+      "host": "sgenable.sg",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.trade.gov.tw/",
+      "host": "trade.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.trade.gov.tw/RSS/List.aspx?nodeID=40",
+      "host": "trade.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    },
+    {
+      "url": "https://www.vdab.be/nieuws-voor-de-pers",
+      "host": "vdab.be",
+      "kind": "official_or_institutional_entry",
+      "status": "page_content_inspected",
+      "checkNote": "2026-10-05 檢視官方新聞列表；內容可讀。未逐篇核實政策。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.wda.gov.tw/",
+      "host": "wda.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www.wda.gov.tw/cp.aspx?n=271",
+      "host": "wda.gov.tw",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": true
+    },
+    {
+      "url": "https://www2.abaconline.org/page-content/news-&-media",
+      "host": "www2.abaconline.org",
+      "kind": "official_or_institutional_entry",
+      "status": "documented_candidate_not_tested",
+      "checkNote": "交接文件列出的候選入口；未在本輪測試有效性、時效或RSS解析。",
+      "use": "發現來源與補足覆蓋；不能當作單篇政策已核實的證據",
+      "newHostComparedWithCsv": false
+    }
+  ],
+  "sourceCounts": {
+    "entries": 76,
+    "newHosts": 25,
+    "feedCandidates": 22
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "path": "collector.py",
+      "sha256": "4d4a832b7918e745abf541f0b22e02294a6f671eda868f10927634c1bfaf0e30"
+    },
+    {
+      "path": "sources.json",
+      "sha256": "4d42b3bcc3ff12322f1b9220696bd7df4eea8cc97f2b6ca3c94b21d3df99215d"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "7b1842ff8cd2c1a9b8c84d27ca2f391af82be7ec978a1a9bf09541a52f4f0d11"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1adcea7322059d6dd48c03af04abff111975b6362e302193ae836b6beec9c40f"
+    },
+    {
+      "path": "TEST-RESULTS.txt",
+      "sha256": "a3d3986abefd224080f34fd6465e521be2ef97b681f422df8593677e1b1eff14"
+    },
+    {
+      "path": "templates/manual-check.yml",
+      "sha256": "1bc74b866ae6f28fbec8ba975333934a65eca9b1c16ac3a1af2a823424f72afd"
+    },
+    {
+      "path": "tests/test_collector.py",
+      "sha256": "a64bc675781c680f9985f0258370890876f6aa049fdb93edd0d3ea988a4c339e"
+    },
+    {
+      "path": "tests/fixtures/rss.xml",
+      "sha256": "d9a372190a14f04b725d78855f9b02156032e1ac8b7f40ac24eb617c630c2dfa"
+    },
+    {
+      "path": "tests/fixtures/atom.xml",
+      "sha256": "73fa0bb9845fa6853544142808012a555e0a22a50f39a4a812ec01105d744d86"
+    }
+  ],
+  "status": "40 offline tests passed; collector code unchanged from independently reviewed version; three live CLI sources failed DNS before HTTP; all disabled; no candidate data included; manual-only; no scheduler or deployment"
+}

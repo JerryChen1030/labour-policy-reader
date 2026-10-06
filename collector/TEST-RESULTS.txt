@@ -1,0 +1,47 @@
+Offline suite re-run 2026-10-06 UTC. Live networking did not pass; see README receipt.
+
+test_429_retains_queue_and_reports_error (test_collector.CollectionTests.test_429_retains_queue_and_reports_error) ... ok
+test_backoff_skips_fetch (test_collector.CollectionTests.test_backoff_skips_fetch) ... ok
+test_collect_no_public_mutation (test_collector.CollectionTests.test_collect_no_public_mutation) ... ok
+test_corrupt_json_not_overwritten (test_collector.CollectionTests.test_corrupt_json_not_overwritten) ... ok
+test_disabled_no_network (test_collector.CollectionTests.test_disabled_no_network) ... ok
+test_existing_lock_stops (test_collector.CollectionTests.test_existing_lock_stops) ... ok
+test_invalid_encoding_records_error_and_backoff (test_collector.CollectionTests.test_invalid_encoding_records_error_and_backoff) ... ok
+test_malformed_is_error (test_collector.CollectionTests.test_malformed_is_error) ... ok
+test_multibyte_queue_retains_backoff_with_byte_eviction (test_collector.CollectionTests.test_multibyte_queue_retains_backoff_with_byte_eviction) ... ok
+test_overflow_date_does_not_abort_state (test_collector.CollectionTests.test_overflow_date_does_not_abort_state) ... ok
+test_partial_deferred_retains_failure_status (test_collector.CollectionTests.test_partial_deferred_retains_failure_status) ... ok
+test_partial_not_reported_as_complete (test_collector.CollectionTests.test_partial_not_reported_as_complete) ... ok
+test_redirect_relative_link_uses_final_url (test_collector.CollectionTests.test_redirect_relative_link_uses_final_url) ... ok
+test_atom_separate_dates (test_collector.ParserTests.test_atom_separate_dates) ... ok
+test_change_beyond_summary_limit (test_collector.ParserTests.test_change_beyond_summary_limit) ... ok
+test_changed_content_retains_versions (test_collector.ParserTests.test_changed_content_retains_versions) ... ok
+test_datetime_offset_overflow_is_unknown (test_collector.ParserTests.test_datetime_offset_overflow_is_unknown) ... ok
+test_dedup (test_collector.ParserTests.test_dedup) ... ok
+test_empty_valid_feed (test_collector.ParserTests.test_empty_valid_feed) ... ok
+test_entity_rejected (test_collector.ParserTests.test_entity_rejected) ... ok
+test_html_is_error_not_empty_feed (test_collector.ParserTests.test_html_is_error_not_empty_feed) ... ok
+test_malformed (test_collector.ParserTests.test_malformed) ... ok
+test_missing_channel (test_collector.ParserTests.test_missing_channel) ... ok
+test_null_encoding_rejected (test_collector.ParserTests.test_null_encoding_rejected) ... ok
+test_queue_cap (test_collector.ParserTests.test_queue_cap) ... ok
+test_rdf (test_collector.ParserTests.test_rdf) ... ok
+test_refresh_never_approves (test_collector.ParserTests.test_refresh_never_approves) ... ok
+test_retention (test_collector.ParserTests.test_retention) ... ok
+test_rss_happy (test_collector.ParserTests.test_rss_happy) ... ok
+test_size_limit (test_collector.ParserTests.test_size_limit) ... ok
+test_timezone_required (test_collector.ParserTests.test_timezone_required) ... ok
+test_unapproved_item_host_skipped (test_collector.ParserTests.test_unapproved_item_host_skipped) ... ok
+test_unknown_date_not_fetch_date (test_collector.ParserTests.test_unknown_date_not_fetch_date) ... ok
+test_bad_urls (test_collector.SecurityTests.test_bad_urls) ... ok
+test_fetch_limits_and_errors (test_collector.SecurityTests.test_fetch_limits_and_errors) ... ok
+test_mixed_dns_rejected (test_collector.SecurityTests.test_mixed_dns_rejected) ... ok
+test_private_dns (test_collector.SecurityTests.test_private_dns) ... ok
+test_public_dns (test_collector.SecurityTests.test_public_dns) ... ok
+test_redirect_revalidation (test_collector.SecurityTests.test_redirect_revalidation) ... ok
+test_retry_after (test_collector.SecurityTests.test_retry_after) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.972s
+
+OK

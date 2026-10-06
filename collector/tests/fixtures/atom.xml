@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC TEST DATA: not an actual policy announcement -->
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Synthetic test</title><entry><title>Synthetic update</title><link href="https://example.org/policy/2"/><published>2026-10-01T10:00:00+09:00</published><updated>2026-10-05T01:00:00Z</updated><summary>Synthetic summary</summary></entry></feed>

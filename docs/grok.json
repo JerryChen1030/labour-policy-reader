@@ -1,0 +1,3480 @@
+{
+  "schemaVersion": "1.1",
+  "importedAt": "2026-10-05",
+  "notice": "Grok歷史資料與本次抽樣註記；不是完整驗證的現行政策資料庫。",
+  "counts": {
+    "totalImported": 123,
+    "publicUnverifiedReferences": 94,
+    "heldFromPublic": 29,
+    "missingSourceUrl": 26,
+    "sensitiveOrUnverifiedAllegation": 4,
+    "overlapMissingUrlAndHeldAllegation": 1,
+    "publicSummaries": 74,
+    "neutralReferenceOnly": 20
+  },
+  "records": [
+    {
+      "id": "grok-2026-09-14-r3",
+      "title": "南京HRDMM 9/21；勞動部長證實將出席",
+      "originalTitle": "南京HRDMM 9/21；勞動部長證實將出席",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "cna.com.tw",
+        "chinanews.com.cn",
+        "en.people.cn"
+      ],
+      "urls": [
+        "https://www.cna.com.tw/news/ahel/202609010188.aspx",
+        "https://www.chinanews.com.cn/gn/2026/07-22/10664205.shtml",
+        "https://en.people.cn/n3/2026/0723/c90000-20480947.html"
+      ],
+      "sourceDateAsProvided": "2026-09-01",
+      "sortDate": "2026-09-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 3,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "中國人社部公開資訊稱APEC人力資源開發部長會訂2026-09-21於南京舉行，會前將辦第51次HRDWG會議及APEC身心障礙就業國際論壇。中央社等載勞動部長洪申翰稱已收到正式邀請、將出席並依APEC規範以正式會員平等參與。apec.org Events精確日程仍待會前官網再核。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r8",
+      "title": "APEC能源部長會發布2026年北京聯合聲明",
+      "originalTitle": "第16屆 APEC 能源部長會聯合聲明（北京）",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://apec.org/press/news-releases/2026/0911_EMM",
+        "https://www.apec.org/meeting-papers/sectoral-ministerial-meetings/energy/2026-apec-energy-ministerial-meeting",
+        "https://www.apec.org/meeting-papers/sectoral-ministerial-meetings/energy/2026-apec-energy-ministerial-meeting/apec-non-binding-principles-for-promoting-energy-security-synergy"
+      ],
+      "sourceDateAsProvided": "2026-09-11",
+      "sortDate": "2026-09-11",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 8,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "第16屆 APEC 能源部長會（EMM）於2026-09-10～11在北京舉行，由中國國家能源局局長王宏志主持，主題為 “Forge an Innovative and Synergistic Asia-Pacific Energy Community for All”。會後發布《2026 APEC Energy Ministerial Meeting Joint Statement》，核可三項交付物：高品質能源普及願景與行動、AI與能源相互增益政策建議、能源安全協同非約束原則；並重申「AI+Energy」自願合作與供應鏈韌性相關表述。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "APEC官方聲明列明9月10–11日北京會議，並核可能源普及、AI與能源、能源安全協同三項成果。合作原則具自願及非約束性。",
+      "verifiedPublicationDate": "2026-09-11",
+      "verifiedEventDate": "2026-09-10/2026-09-11",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.apec.org/meeting-papers/sectoral-ministerial-meetings/energy/2026-apec-energy-ministerial-meeting"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r12",
+      "title": "比利時核定2025–2029聯邦身障行動計畫",
+      "originalTitle": "比利時《Federaal actieplan handicap 2025–2029》",
+      "country": "比利時",
+      "category": "身障與包容就業",
+      "sources": [
+        "socialsecurity.belgium.be"
+      ],
+      "urls": [
+        "https://socialsecurity.belgium.be/nl/sociaal-beleid-mee-vorm-geven/handicap/verdrag-van-de-verenigde-naties-voor-de-rechten-van-personen-met-een-handicap/federaal-actieplan"
+      ],
+      "sourceDateAsProvided": "2026-04-03",
+      "sortDate": "2026-04-03",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-09",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 12,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "比利時部長會議於2026-04-03核定聯邦身障行動計畫，含118項具體措施（就業、無障礙、社會保護等）；由身障事務部長Rob Beenders協調，聯邦社會安全部為UNCRPD協調機制。預定2027年初首份進度報告、2029年期末報告。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "官方頁面記載2026年4月3日核定、共118項措施，預定2027年初發布進度報告及2029年結案報告。4月3日為核定日，頁面未明列發布日。",
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": "2026-04-03",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://socialsecurity.belgium.be/nl/sociaal-beleid-mee-vorm-geven/handicap/verdrag-van-de-verenigde-naties-voor-de-rechten-van-personen-met-een-handicap/federaal-actieplan"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r14",
+      "title": "歐盟通過身障權利策略中期強化文件",
+      "originalTitle": "歐盟強化身障權利策略至2030（就業配套）",
+      "country": "歐盟/歐洲跨國",
+      "category": "身障與包容就業",
+      "sources": [
+        "commission.europa.eu"
+      ],
+      "urls": [
+        "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/enhancing-strategy-rights-persons-disabilities-2030_en",
+        "https://commission.europa.eu/document/download/ab0bcea9-6b3a-48c1-875c-1cc687fba6d0_en?filename=EC+Enhancing+the+disability+strategy+up+to+2030.pdf"
+      ],
+      "sourceDateAsProvided": "2026-05-06",
+      "sortDate": "2026-05-06",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-09",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 14,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "歐盟執委會於2026-05-06通過COM(2026) 541 Communication《Enhancing the strategy for the rights of persons with disabilities up to 2030》，屬2021–2030策略中期強化。就業面持續落實Disability Employment Package（職場AI／輔具、教育至就業轉銜、女性身障就業等），並評估合理調整、與OECD做成本效益分析、推動會員國設定身障就業國家目標。歐統數據：2024年工作年齡身障勞動參與約56.4%、就業落差約24百分點。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "歐盟頁面記載5月6日通過；COM(2026) 541正文支持身障就業配套及2024年勞動參與56.4%、就業落差24百分點。",
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": "2026-05-06",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/enhancing-strategy-rights-persons-disabilities-2030_en",
+        "https://commission.europa.eu/document/download/ab0bcea9-6b3a-48c1-875c-1cc687fba6d0_en?filename=EC+Enhancing+the+disability+strategy+up+to+2030.pdf"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r16",
+      "title": "荷蘭平台工作法草案進入諮詢",
+      "originalTitle": "荷蘭《平台工作法》概念草案（轉置歐盟指令）",
+      "country": "荷蘭",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "rijksoverheid.nl"
+      ],
+      "urls": [
+        "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/29/gelijker-speelveld-en-betere-positie-platformwerker-door-nieuwe-wet"
+      ],
+      "sourceDateAsProvided": "2026-06-29",
+      "sortDate": "2026-06-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-09",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 16,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "荷蘭政府發布《平台工作法》（Wet platformwerk）概念草案，轉置歐盟平台工作指令 Directive (EU) 2024/2831：含平台工作僱傭關係法律推定（五項準則至少兩項）、演算法管理透明與重大決定須由人為作成等。官方稱草案已上網際諮詢至2026-08-24；成員國轉置期限為2026-12-02，荷方公開說明承認該期限恐無法如期達成。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：部分內容有依據",
+      "verificationStatus": "partially_supported",
+      "verifiedSummary": "6月29日官方新聞說明草案的僱傭推定、演算法透明與人工作成重大決定，諮詢截止8月24日。該頁未佐證轉置延誤說法。",
+      "verifiedPublicationDate": "2026-06-29",
+      "verifiedEventDate": "諮詢截止2026-08-24",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/29/gelijker-speelveld-en-betere-positie-platformwerker-door-nieuwe-wet"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r18",
+      "title": "Le Forem發布2026年144項短缺職業清單",
+      "originalTitle": "Le Forem 2026短缺職業清單（144項）",
+      "country": "比利時",
+      "category": "職訓與MOU夥伴",
+      "sources": [
+        "leforem.be"
+      ],
+      "urls": [
+        "https://www.leforem.be/a-propos/communiques-presse/metiers-en-penurie-2026.html"
+      ],
+      "sourceDateAsProvided": "2026-07-01",
+      "sortDate": "2026-07-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 18,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "瓦隆區公共就業服務Le Forem於2026-07-01公布2026年版短缺職業清單共144項（不含教學類），並改採批評性指數、新職業命名與BMO調查方法；可對應其培訓之短缺職類約82項。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：部分內容有依據",
+      "verificationStatus": "partially_supported",
+      "verifiedSummary": "7月1日官方公告記載144職類、新調查方法與招募困難指數；其培訓可涵蓋其中82項。",
+      "verifiedPublicationDate": "2026-07-01",
+      "verifiedEventDate": "2026年度清單",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.leforem.be/a-propos/communiques-presse/metiers-en-penurie-2026.html"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r19",
+      "title": "美國OSHA：NaturPak／IPMF職安案件線索",
+      "originalTitle": "美國OSHA：NaturPak／IPMF職安案件線索",
+      "country": "美國",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "content.govdelivery.com",
+        "osha.gov"
+      ],
+      "urls": [
+        "https://content.govdelivery.com/accounts/USDOL/bulletins/425f7f4",
+        "https://www.osha.gov/news/newsreleases/"
+      ],
+      "sourceDateAsProvided": "2026-08-20",
+      "sortDate": "2026-08-20",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-09",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 19,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r21",
+      "title": "美NLRB總顧問GC Memo 26-04",
+      "originalTitle": "美NLRB總顧問GC Memo 26-04",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "nlrb.gov",
+        "apps.nlrb.gov"
+      ],
+      "urls": [
+        "https://www.nlrb.gov/guidance/memos-research/general-counsel-memos",
+        "https://apps.nlrb.gov/link/document.aspx/09031d4584351740"
+      ],
+      "sourceDateAsProvided": "2026-08-26",
+      "sortDate": "2026-08-26",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-09",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 21,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "NLRB總顧問發布GC Memorandum 26-04《Further Guidance Regarding General Counsel Priorities》（2026-08-26）。備忘錄列明總顧問已提出或擬於適案挑戰的多項近年Board先例（含工作規則、Bargaining orders、captive-audience等脈絡），本身不逕行改判；各區仍須依現行Board判例調查／起訴，俟Board於個案中決定是否變更。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r25",
+      "title": "ILO官網列出三位總幹事候選人及選舉程序",
+      "originalTitle": "ILO總幹事改選：三人候選人名單確定",
+      "country": "其他跨國/全球",
+      "category": "國際組織治理",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/about-ilo/ilo-director-general/appointment-director-general-ilo"
+      ],
+      "sourceDateAsProvided": "2026-09-01",
+      "sortDate": "2026-09-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 25,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO公布總幹事改選三位候選人：現任Houngbo、西班牙勞動部長Díaz、祕魯前外長González-Olaechea。後續時程含9/23公開互動、11/9聽證會、11/16秘密投票。屬國際勞動組織領導層更迭節點。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：部分內容有依據",
+      "verificationStatus": "partially_supported",
+      "verifiedSummary": "動態官方頁面列三位候選人，公開互動為9月23日，聽證與選舉分別預定11月9日及16日；未明列名單首次發布日。",
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": "公開互動2026-09-23；聽證2026-11-09；選舉2026-11-16",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.ilo.org/about-ilo/ilo-director-general/appointment-director-general-ilo"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r26",
+      "title": "NBIM建議下調GPFG債券基準中政府債／美債權重",
+      "originalTitle": "NBIM建議下調GPFG債券基準中政府債／美債權重",
+      "country": "挪威",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "nbim.no"
+      ],
+      "urls": [
+        "https://www.nbim.no/en/news-and-insights/submissions-to-ministry/2026/the-government-pension-fund-global--analyses-and-assessments-of-the-investment-strategy-for-bonds/"
+      ],
+      "sourceDateAsProvided": "2026-09-01",
+      "sortDate": "2026-09-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 26,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "NBIM向主管機關提交建議，擬將挪威政府全球養老基金（GPFG）債券基準中政府債權重大約自70%調降至50%，並涉及美債權重調整；尚待財政部與國會程序、逐步調整。屬參考性資訊，不得作為投資或基金配置決策依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r28",
+      "title": "APEC Healthy Aging Action Plan 2026–2030",
+      "originalTitle": "APEC Healthy Aging Action Plan 2026–2030",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://www.apec.org/press/news-releases/2026/0904_hwg"
+      ],
+      "sourceDateAsProvided": "2026-09-04",
+      "sortDate": "2026-09-04",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 28,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "APEC健康工作組（HWG）於大連相關新聞指出區域65歲以上約占15%，並推動涵蓋長期照護、數位健康等之健康老化行動計畫（2026–2030）。屬APEC健康／高齡正式進程文件脈絡。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r31",
+      "title": "印度Mirzapur工廠事故報導線索",
+      "originalTitle": "印度Mirzapur工廠事故報導線索",
+      "country": "印度",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "timesofindia.indiatimes.com"
+      ],
+      "urls": [
+        "https://timesofindia.indiatimes.com/city/lucknow/4-workers-killed-as-crusher-plant-machinery-collapses-in-mirzapur/articleshow/133814408.cms"
+      ],
+      "sourceDateAsProvided": "2026-09-06",
+      "sortDate": "2026-09-06",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 31,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r32",
+      "title": "EWG72：國家能源局官方專頁",
+      "originalTitle": "EWG72：國家能源局官方專頁",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "nea.gov.cn"
+      ],
+      "urls": [
+        "https://www.nea.gov.cn/20260909/7c30888544ee458bb86d358640bbb498/c.html"
+      ],
+      "sourceDateAsProvided": "2026-09-09",
+      "sortDate": "2026-09-09",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 32,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "國家能源局官網確認 EWG72 於2026-09-08在北京召開並成功舉辦；副局長汪劍波致辭；會上通報各國能源政策、聽取下設機構報告、審議部長會成果文件草案；約200名代表參會。相對9/9晨表僅媒體據NEA轉述，補上官方專頁。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r33",
+      "title": "ILO：歐洲PES身障就業相互學習／數位工具下一前沿",
+      "originalTitle": "ILO：歐洲PES身障就業相互學習／數位工具下一前沿",
+      "country": "歐盟/歐洲跨國",
+      "category": "身障與包容就業",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/digital-innovation-can-support-more-inclusive-employment-pathways"
+      ],
+      "sourceDateAsProvided": "2026-09-09",
+      "sortDate": "2026-09-09",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 33,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO於2026-09-09發布新聞，指歐洲公共就業服務（PES）網路於柏林舉辦 Disability Employment Package Mutual Learning Seminar（2026-09-01～02），交流身障者進入、留任與職涯進展支持。ILO補充數位工具現多集中於服務近用、求職、訓練與媒合，較少用於合理調整、留任與升遷，並進行全球實務盤點；官員Zulum Avila公開指出此一「下一前沿」。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r35",
+      "title": "美國第九巡迴：BART宗教合理調整案件線索",
+      "originalTitle": "美國第九巡迴：BART宗教合理調整案件線索",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "cdn.ca9.uscourts.gov"
+      ],
+      "urls": [
+        "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/09/11/25-618.pdf"
+      ],
+      "sourceDateAsProvided": "2026-09-11",
+      "sortDate": "2026-09-11",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 35,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r43",
+      "title": "TGI開設Solar Learning Center",
+      "originalTitle": "TGI開設Solar Learning Center",
+      "country": "泰國",
+      "category": "職訓與MOU夥伴",
+      "sources": [
+        "posttoday.com"
+      ],
+      "urls": [
+        "https://www.posttoday.com/pr-news/pr-news/748164"
+      ],
+      "sourceDateAsProvided": "2026-09",
+      "sortDate": null,
+      "sourceDatePrecision": "month",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 43,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "MOU夥伴泰德學院（TGI）據Post Today PR報導，與PERKE合作推出太陽光電學習中心並規劃相關安裝課程認證。公開細節以新聞稿／媒體轉述為主。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r44",
+      "title": "ACCEPT無紙化貿易／電子單證互通試點",
+      "originalTitle": "ACCEPT無紙化貿易／電子單證互通試點",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://www.apec.org/press/news-releases/2026/paper-trail-holds-back-digital-trade-processes-as-apec--abac-push-practical-fixes"
+      ],
+      "sourceDateAsProvided": "2026-09-01",
+      "sortDate": "2026-09-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 44,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "CTI／ACCEPT於大連相關對話推動跨境電子貿易單證互通與無紙化試點，指紙本流程仍拖累數位貿易實務。屬APEC貿易便利化進程公開動態。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r45",
+      "title": "佛拉芒訓練假新規則（含VDAB短缺課程）",
+      "originalTitle": "佛拉芒訓練假新規則（含VDAB短缺課程）",
+      "country": "比利時",
+      "category": "職訓與MOU夥伴",
+      "sources": [
+        "partena-professional.be"
+      ],
+      "urls": [
+        "https://www.partena-professional.be/en/our-insights/infoflashes/flemish-training-leave-implementing-decree-finally-published-heres-whats"
+      ],
+      "sourceDateAsProvided": "2026-09-01",
+      "sortDate": "2026-09-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 45,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "佛拉芒「訓練假」（Flemish training leave）施行細則自2026-09-01起適用新規則，合格課程含VDAB最新短缺職業清單所列課程及數位／氣候轉型等。屬MOU夥伴VDAB所在區培訓假制度配套，非VDAB自發新聞稿。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r47",
+      "title": "ARBURG（Thailand）與TGI簽署MOU",
+      "originalTitle": "ARBURG（Thailand）與TGI簽署MOU",
+      "country": "泰國",
+      "category": "職訓與MOU夥伴",
+      "sources": [
+        "arburg.com"
+      ],
+      "urls": [
+        "https://www.arburg.com/en/th/company/news-press-releases/detail/arburg-thailand-signs-mou-with-thai-german-institute/"
+      ],
+      "sourceDateAsProvided": "2026-09-07",
+      "sortDate": "2026-09-07",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 47,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ARBURG（Thailand）官網載2026-09-07與泰德學院（TGI）簽署MOU，於TGI Smart Manufacturing & Robotics Summit 2026場合強化智慧製造、技能與產業能力合作。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r48",
+      "title": "奧地利擬設千億歐元主權基金補強年金",
+      "originalTitle": "奧地利擬設千億歐元主權基金補強年金",
+      "country": "奧地利",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "ipe.com"
+      ],
+      "urls": [
+        "https://www.ipe.com/news/austria-pitches-100bn-sovereign-wealth-fund-to-bolster-pensions/10138361.article"
+      ],
+      "sourceDateAsProvided": "2026-09-07",
+      "sortDate": "2026-09-07",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 48,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "奧地利方面據IPE報導提議長期累積主權基金至約€100bn，之後每年約€5bn支援年金（總理Stocker提議每年約7億歐元、國企股利約半數投入）。屬單一媒體脈絡之政策構想報導；參考性資訊，不得作為投資或基金配置決策依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r49",
+      "title": "泰國政府退休基金改採混合Total Portfolio Approach",
+      "originalTitle": "泰國政府退休基金改採混合Total Portfolio Approach",
+      "country": "泰國",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "asiaasset.com"
+      ],
+      "urls": [
+        "https://www.asiaasset.com/pension-funds/thailands-gpf-revamps-investment-strategy-to-navigate-global-risks/"
+      ],
+      "sourceDateAsProvided": "2026-09-07",
+      "sortDate": "2026-09-07",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 49,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "泰國GPF據報改採混合Total Portfolio Approach，目標長期實質報酬約逾通膨2–3%，並規劃2027提出完整策略。屬參考性資訊，不得作為投資或基金配置決策依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r50",
+      "title": "瑞士Valais起重機事故報導線索",
+      "originalTitle": "瑞士Valais起重機事故報導線索",
+      "country": "瑞士",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "vertikal.net"
+      ],
+      "urls": [
+        "https://vertikal.net/en/news/story/49243/tower-crane-installation-fatality"
+      ],
+      "sourceDateAsProvided": "2026-09-07",
+      "sortDate": "2026-09-07",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-08",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 50,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r51",
+      "title": "日本GPIF：大臣稱持續評估配置、未宣布變更",
+      "originalTitle": "日本GPIF：大臣稱持續評估配置、未宣布變更",
+      "country": "日本",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "japantimes.co.jp"
+      ],
+      "urls": [
+        "https://www.japantimes.co.jp/business/2026/09/08/markets/gpif-allocation-review/"
+      ],
+      "sourceDateAsProvided": "2026-09-08",
+      "sortDate": "2026-09-08",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-09",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 51,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "日本厚生勞動大臣上野賢一郎於例行記者會表示，GPIF仍在「適當方式」持續評估是否需檢討資產配置；並稱今年3月曾認定當時無必要調整，且投資環境與配置前提尚未大幅偏離。媒體提及管理委員會8/21開會與日債比重關注，惟大臣發言未宣布已變更配置目標。屬參考性資訊，不得作為投資或基金配置決策依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r52",
+      "title": "美第五巡迴：Corr Flight／AIR21吹哨人案（未刊登）",
+      "originalTitle": "美第五巡迴：Corr Flight／AIR21吹哨人案（未刊登）",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "ca5.uscourts.gov"
+      ],
+      "urls": [
+        "https://www.ca5.uscourts.gov/opinions/unpub/25/25-60286.0.pdf"
+      ],
+      "sourceDateAsProvided": "2026-09-10",
+      "sortDate": "2026-09-10",
+      "sourceDatePrecision": "day",
+      "collectionDate": null,
+      "collectionDateNote": "原附件未提供可確定的單一彙整日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 52,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "第五巡迴於2026-09-10以未刊登意見 Corr Flight S. v. Department of Labor, No. 25-60286，駁回航空公司對勞工部行政覆核委員會AIR21吹哨人裁決之審查聲請。法院認ALJ雙層免職保障違憲，但聲請人未證明Collins意義下之具體損害，故不撤銷裁決；未指定刊登，非先例。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r53",
+      "title": "日本：未持身心障礙手冊之難病患者納入雇用率制度之個別判定方向",
+      "originalTitle": "日本：未持身心障礙手冊之難病患者納入雇用率制度之個別判定方向",
+      "country": "日本",
+      "category": "身障與包容就業",
+      "sources": [
+        "mhlw.go.jp"
+      ],
+      "urls": [
+        "https://www.mhlw.go.jp/stf/newpage_76196.html"
+      ],
+      "sourceDateAsProvided": "2026-09-15",
+      "sortDate": "2026-09-15",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 53,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "厚勞省障害者雇用分科會第142回續審難病患者於雇用率制度之定位。事務局傾向「本人申請＋重症度／就労困難性評估＋國設審查委員會個別判定」；達一定水準者先納入實雇用率一定算定，再視施行檢討雇用義務。疾病範圍傾向障害者総合支援法約376項；JEED 令和8–10年度調查進行中，法制化時程待設計。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r54",
+      "title": "日本：障害者雇用代行ビジネス法規制方向（第141回）",
+      "originalTitle": "日本：障害者雇用代行ビジネス法規制方向（第141回）",
+      "country": "日本",
+      "category": "身障與包容就業",
+      "sources": [
+        "mhlw.go.jp"
+      ],
+      "urls": [
+        "https://www.mhlw.go.jp/stf/newpage_75845.html"
+      ],
+      "sourceDateAsProvided": "2026-08-31",
+      "sortDate": "2026-08-31",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 54,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "分科會擬於障害者雇用促進法定義「障害者雇用援助等事業」（暫稱），課開始申報、告示ガイドライン努力義務，並得對不適切事例報告徵收／指導／勸告；利用企業須於6月1日雇用狀況報告併報事業者與就業場所等。目標來年通常國會提出改正案。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r55",
+      "title": "APEC公布首份心血管健康路線圖",
+      "originalTitle": "APEC 首份心血管健康路線圖（HWG）",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://www.apec.org/press/news-releases/2026/0917_HWG"
+      ],
+      "sourceDateAsProvided": "2026-09-17",
+      "sortDate": "2026-09-17",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 55,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "apec.org 宣布通過自願、非約束之 Cardiovascular Health Roadmap（泰主導、秘魯／菲律賓共同提案），涵蓋預防至長期復健與衛生系統強化，並強調衛生與財政政策連結；於 SOM3 場邊相關脈絡通過，與 Healthy Aging Action Plan 不同案。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "9月17日官方新聞記載泰國主導、秘魯與菲律賓共同提案，屬自願且非約束的路線圖。此新聞晚於原檔名義日期。",
+      "verifiedPublicationDate": "2026-09-17",
+      "verifiedEventDate": "SOM3場邊通過；精確日未列",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.apec.org/press/news-releases/2026/0917_HWG"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r56",
+      "title": "ILO：衣索比亞啟動公共基礎建設就業影響評估（EmpIA）",
+      "originalTitle": "ILO：衣索比亞啟動公共基礎建設就業影響評估（EmpIA）",
+      "country": "衣索比亞",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/article/ethiopia-launches-employment-impact-assessment-strengthen-job-outcomes"
+      ],
+      "sourceDateAsProvided": "2026-09-14",
+      "sortDate": "2026-09-14",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 56,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "都市暨基礎建設部與 ILO 於 Bishoftu 啟動 EmpIA，衡量公共投資直接／間接／誘發就業與工作品質並回饋規劃預算；荷蘭經 PROSPECTS 支持，目標制度化學入國家規劃。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r57",
+      "title": "英國HSE：Smith & Nephew職安案件線索",
+      "originalTitle": "英國HSE：Smith & Nephew職安案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/09/15/crate-falls-from-forklift-truck-and-seriously-injures-worker/"
+      ],
+      "sourceDateAsProvided": "2026-09-15",
+      "sortDate": "2026-09-15",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 57,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r58",
+      "title": "英國HSE：滅火器回收業職安案件線索",
+      "originalTitle": "英國HSE：滅火器回收業職安案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/09/17/fire-extinguisher-recycling-company-fined-after-thoughtful-and-kind-man-killed-at-work/"
+      ],
+      "sourceDateAsProvided": "2026-09-17",
+      "sortDate": "2026-09-17",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 58,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-14-r59",
+      "title": "紐約市公共年金再承諾 HIT US$3億（住房投資信託）",
+      "originalTitle": "紐約市公共年金再承諾 HIT US$3億（住房投資信託）",
+      "country": "美國",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "comptroller.nyc.gov"
+      ],
+      "urls": [
+        "https://comptroller.nyc.gov/newsroom/comptroller-levine-and-pension-trustees-commit-300m-in-new-capital-to-fund-union-built-housing-in-new-york-city/"
+      ],
+      "sourceDateAsProvided": "2026-09-17",
+      "sortDate": "2026-09-17",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-18",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-14.csv",
+        "csvRow": 59,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "紐約市主計長辦公室宣布 TRS、NYCERS、Police、Fire 四檔公共年金合計再承諾 US$3 億予 AFL-CIO Housing Investment Trust（HIT），為該信託歷來最大單筆配置，屬主計長四年 US$40 億住房投資倡議之一環。參考性即時資訊，不得作為投資或基金配置決策依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r2",
+      "title": "APEC HRDMM：勞動部長洪申翰抵南京（會期當日）",
+      "originalTitle": "APEC HRDMM：勞動部長洪申翰抵南京（會期當日）",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "cna.com.tw"
+      ],
+      "urls": [
+        "https://www.cna.com.tw/news/acn/202609200210.aspx"
+      ],
+      "sourceDateAsProvided": "2026-09-20",
+      "sortDate": "2026-09-20",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 2,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "中央社2026-09-20報導，洪部長於9月20日晚間抵南京祿口國際機場，將於9月21日出席APEC人力資源發展部長會（HRDMM）。此為先前「將出席」公開訊息後之行程落實更新。會議當日聯合聲明等成果文件截至本輪掃描公開索引尚不足，續待官方或會議後發布；南京身障就業研討會（9/16）已於先前輪次報過，不重報。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r3",
+      "title": "日本障害者雇用代行模式與職場安全案例線索",
+      "originalTitle": "日本障害者雇用代行模式與職場安全案例線索",
+      "country": "日本",
+      "category": "身障與包容就業",
+      "sources": [
+        "yomiuri.co.jp",
+        "tokyo-np.co.jp"
+      ],
+      "urls": [
+        "https://www.yomiuri.co.jp/national/20260919-GYT1T00072/",
+        "https://www.tokyo-np.co.jp/article/516134"
+      ],
+      "sourceDateAsProvided": "2026-09-18",
+      "sortDate": "2026-09-18",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 3,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r4",
+      "title": "美國NLRB：Snowflake勞資爭議案件線索",
+      "originalTitle": "美國NLRB：Snowflake勞資爭議案件線索",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "nlrb.gov"
+      ],
+      "urls": [
+        "https://www.nlrb.gov/case/20-CA-274626"
+      ],
+      "sourceDateAsProvided": "2026-09-16",
+      "sortDate": "2026-09-16",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 4,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r5",
+      "title": "ILO：下任秘書長候選人公開互動說明會（2026-09-23日內瓦／直播）",
+      "originalTitle": "ILO：下任秘書長候選人公開互動說明會（2026-09-23日內瓦／直播）",
+      "country": "其他跨國/全球",
+      "category": "國際組織治理",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/ilo-hold-public-interactive-event-candidates-post-director-general"
+      ],
+      "sourceDateAsProvided": "2026-09-16",
+      "sortDate": "2026-09-16",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 5,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO發布將於2026-09-23舉行下任秘書長候選人公開互動說明會，供三位候選人向三方成員與公眾說明願景。後續為2026-11-09理事會非公開聽證會、2026-11-16無記名選舉；新任任期自2027-10-01起。候選人為Gilbert F. Houngbo（現任）、Yolanda Díaz Pérez、Javier González-Olaechea Franco。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r6",
+      "title": "APEC×UNCTAD：WTO公共論壇「數位就緒服務經濟」首度合辦場次",
+      "originalTitle": "APEC×UNCTAD：WTO公共論壇「數位就緒服務經濟」首度合辦場次",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://www.apec.org/press/news-releases/2026/0921_APEC@WTOPublicForum"
+      ],
+      "sourceDateAsProvided": "2026-09-21",
+      "sortDate": "2026-09-21",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 6,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "APEC秘書處與UNCTAD於日內瓦WTO公共論壇合辦「Policy to Practice, Building Digital-Ready Services Economies」，討論數位交付服務貿易監管、數位基建與區域合作。秘書處執行主任強調結果導向監管與信任建設，並回指5月貿易部長會歡迎之服務業十年路線圖（含人力與能力建構）。UNCTAD指出數位可交付服務已占全球服務出口約56%，最不發達經濟體僅約16%。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r7",
+      "title": "ILO：泰國橡膠產業工會職安衛管理系統訓練",
+      "originalTitle": "ILO：泰國橡膠產業工會職安衛管理系統訓練",
+      "country": "泰國",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/workers-thailand%E2%80%99s-rubber-sector-strengthen-their-role-workplace-safety-and"
+      ],
+      "sourceDateAsProvided": "2026-09-18",
+      "sortDate": "2026-09-18",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 7,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO於2026-09-17至18日在泰國為橡膠產業10個工會組織共22名勞工代表辦理職場職安衛管理系統、風險評估與勞工參與訓練，並實地訪視。背景指上游割膠PPE與系統訓練不足、加工端化學品與煙霧風險高；屬加拿大ESDC資助之FPRW與貿易準備計畫，呼應C155、C187。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r8",
+      "title": "荷蘭bpfBOUW選定BlackRock為受託支援優先協商對象",
+      "originalTitle": "荷蘭bpfBOUW選定BlackRock為受託支援優先協商對象",
+      "country": "荷蘭",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "bpfbouw.nl"
+      ],
+      "urls": [
+        "https://www.bpfbouw.nl/over-bpfbouw/nieuws/2026/statement-voorkeurskeuze-blackrock"
+      ],
+      "sourceDateAsProvided": "2026-09-17",
+      "sortDate": "2026-09-17",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-21",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 8,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "荷蘭營建業勞工退休基金bpfBOUW聲明選定BlackRock為未來受託（fiduciary）支援之優先協商對象，理由含國際規模、投資專業、科技與ESG數據能力；目前進入合約談判。基金強調對參與人、雇主與受領人現階段無立即變更。外媒報導組合規模約近700億歐元，惟官方聲明未列金額。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r9",
+      "title": "APEC人力資源開發部長會發布南京聲明",
+      "originalTitle": "APEC HRDMM：第8屆人力資源開發部長會議聯合聲明（南京）",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://apec.org/meeting-papers/sectoral-ministerial-meetings/humanresourcesdevelopment/joint-statement-of-the-8th-apec-human-resources-development-ministerial-meeting"
+      ],
+      "sourceDateAsProvided": "2026-09-21",
+      "sortDate": "2026-09-21",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 9,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "2026年9月21日APEC各經濟體人力資源發展相關部長於南京通過第8屆HRDMM聯合聲明。聲明第8點強調應對所有人提供就業與培訓機會，並特別聚焦身心障礙者，與APEC既有目標及承諾對齊；第23點肯定透過HRDWG及其CBN、LSPN、EDNET，並與「促進身心障礙政策主席之友」（FotC）合作，檢視進度與分享優良作法。此為部長行程報導後之正式成果文件，",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "9月21日官方聲明第8點談身障者就業與培訓，第23點談HRDWG三個網絡及FotC合作。",
+      "verifiedPublicationDate": "2026-09-21",
+      "verifiedEventDate": "2026-09-21",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://apec.org/meeting-papers/sectoral-ministerial-meetings/humanresourcesdevelopment/joint-statement-of-the-8th-apec-human-resources-development-ministerial-meeting"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r11",
+      "title": "第12屆APEC運輸部長會（TMM12）北京會期當日｜日程仍待核",
+      "originalTitle": "第12屆APEC運輸部長會（TMM12）北京會期當日｜日程仍待核",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org",
+        "trade.gov.tw",
+        "info.gov.hk"
+      ],
+      "urls": [
+        "https://www.apec.org/engage-with-us/events-calendar/2026/transportation-ministerial-meeting-%28tptmm%29",
+        "https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=1582&pid=809707",
+        "https://www.info.gov.hk/gia/general/202609/21/P2026092100304.htm"
+      ],
+      "sourceDateAsProvided": "2026-09-22",
+      "sortDate": "2026-09-22",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 11,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "apec.org活動日曆現標TMM12會期為2026-09-22（單日），議題聚焦數位技術融入運輸系統及標準、資料流與演算法安全互操作性；惟國貿署頁面仍列9/20–21，TPTWG 8/29稿曾稱9/21–22，日程來源衝突仍標待核。同日全球可持續交通高峰論壇（9/22–23）在京舉行。截至09-22晨掃apec.org尚無TMM12聯合或主席聲明。香港運輸及物流局局長陳美寶赴京出席並發言；媒體轉述中方交通部長劉偉9/21會見馬、澳、柬運輸首長並與馬、柬簽署合作文件。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 1
+    },
+    {
+      "id": "grok-2026-09-21-r12",
+      "title": "韓國：政府身障者就業方案2027年目標擴大至3萬8,446人",
+      "originalTitle": "韓國：政府身障者就業方案2027年目標擴大至3萬8,446人",
+      "country": "韓國",
+      "category": "身障與包容就業",
+      "sources": [
+        "yna.co.kr"
+      ],
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260917092500530"
+      ],
+      "sourceDateAsProvided": "2026-09-17",
+      "sortDate": "2026-09-17",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 12,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "韓國保健福祉部與韓國身障人開發院於2026-09-17公開，政府案規劃明年透過身障者就業方案支援3萬8,446人，約為2016年規模的2.6倍。配套包括參與者訓練津貼調升至月15萬韓元，並自2027年7月起對職業重建設施受訓者新設月10萬韓元訓練支援費，職業重建設施經營顧問預算亦規劃由3.5億增至10億韓元。該案與義務雇用／負擔金制度屬不同政策工具。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r13",
+      "title": "ILO：日本支援PRS二期與PPLL於新德里結案（印／尼／巴非正式經濟）",
+      "originalTitle": "ILO：日本支援PRS二期與PPLL於新德里結案（印／尼／巴非正式經濟）",
+      "country": "其他跨國/全球",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/japan-supported-ilo-initiatives-strengthen-protections-workers-and-children"
+      ],
+      "sourceDateAsProvided": "2026-09-21",
+      "sortDate": "2026-09-21",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 13,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO於2026-09-21發布，日本厚勞省支援之PRS第二期與PPLL兩案在新德里結案研討會（會期09-14）公布成果。印度、尼泊爾、巴基斯坦約23,208名非正式經濟勞工改善正式就業與社會保護管道；印度Bihar／巴基斯坦Punjab等通過13項政策立法措施（含家務與清潔工人薪資改革）；尼泊爾納入童工立法改革、危險工作清單與勞動力調查童工模組。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r14",
+      "title": "ILO：國際同工同酬日—全球性別薪資差距十年僅縮約2個百分點",
+      "originalTitle": "ILO：國際同工同酬日—全球性別薪資差距十年僅縮約2個百分點",
+      "country": "其他跨國/全球",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/closing-gender-pay-gap-critical-advance"
+      ],
+      "sourceDateAsProvided": "2026-09-21",
+      "sortDate": "2026-09-21",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 14,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO於2026-09-21（國際同工同酬日）發布，秘書長Houngbo在都柏林活動指出，過去十年全球性別薪資差距僅縮小約2個百分點，女性平均仍少賺約18%；高教育程度未能消除差距，並連帶影響儲蓄與年金。重申《同酬公約》（第100號）「同值同酬」原則，並點出綠色／數位轉型與AI／演算法在招募與薪酬上的風險與機會。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r15",
+      "title": "英國HSE：Hillbeck Homes職安案件線索",
+      "originalTitle": "英國HSE：Hillbeck Homes職安案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/09/21/construction-company-fined-after-24-year-old-father-falls-through-unprotected-stairwell-opening/"
+      ],
+      "sourceDateAsProvided": "2026-09-21",
+      "sortDate": "2026-09-21",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 15,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r16",
+      "title": "Le Forem｜Jobday Village n°1 Entreprises（身障求職日）",
+      "originalTitle": "Le Forem｜Jobday Village n°1 Entreprises（身障求職日）",
+      "country": "比利時",
+      "category": "身障與包容就業",
+      "sources": [
+        "agenda.leforem.be"
+      ],
+      "urls": [
+        "https://agenda.leforem.be/jobday-village-ndeg1-entreprises-2026-10-08.html"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 16,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "Le Forem 議程公告，2026-10-08 09:00–12:00 於 Wauthier-Braine「Village n°1 Entreprises」辦理 Jobday；約 800 名工作者、服務逾 300 家企業。公開徵求清潔技術員、家務協助、油漆、鋪地維修、產線作業等；報名須瓦隆 AVIQ／布魯塞爾 PHARE 認可身障身分或 ETA，線上截止 10-05，10-01 另有 Nivelles 面試準備工作坊。屬 MOU 夥伴就業媒合活動；單一來源。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r17",
+      "title": "波蘭｜輔助就業模式標準化後之 FERS 實地試點競標（約 4.35 億茲羅提）",
+      "originalTitle": "波蘭｜輔助就業模式標準化後之 FERS 實地試點競標（約 4.35 億茲羅提）",
+      "country": "波蘭",
+      "category": "身障與包容就業",
+      "sources": [
+        "niepelnosprawni.gov.pl",
+        "samorzad.gov.pl"
+      ],
+      "urls": [
+        "https://niepelnosprawni.gov.pl/projekty/projekty-fers/strona-projektu-standaryzacja-modelu-zatrudnienia-wspomaganego-w-polsce/",
+        "https://samorzad.gov.pl/web/gops-augustow/konkurs-na-wdrozenie-i-przetestowanie-w-warunkach-rzeczywistych-modelu-zatrudnienia-wspomaganego"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 17,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "MRPiPS 歐洲社會基金處規劃 2026 年 9 月公告競標，試點「輔助就業模式」（Model Zatrudnienia Wspomaganego），奠基於 BON「波蘭輔助就業模式標準化」概念計畫。申請人含地方政府、NGO、企業，成立並營運輔助就業機構（AZW）；全國規模約 4.35 億茲羅提、至 2029 年，目標服務約 1.2 萬人、就業至少 3,600 人。詳細文件將刊於 fers.mrpips.gov.pl。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r18",
+      "title": "德國｜Inklusionspreis für die Wirtschaft 2026（BA＋BDA）得獎公告",
+      "originalTitle": "德國｜Inklusionspreis für die Wirtschaft 2026（BA＋BDA）得獎公告",
+      "country": "德國",
+      "category": "身障與包容就業",
+      "sources": [
+        "arbeitgeber.de",
+        "presseportal.de"
+      ],
+      "urls": [
+        "https://arbeitgeber.de/inklusionspreis-fuer-die-wirtschaft-2026/",
+        "https://www.presseportal.de/pm/6776/6355669"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-23",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 18,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "聯邦就業署、BDA 與企業論壇頒發第 11 屆「經濟領域融合獎」。大型企業組 SMS group GmbH 獲獎，表彰包容性人力管理、心理健康、無障礙園區及資料導向「融合營運系統」等；另有中小企業組得獎（含 Cummins Deutschland、Moderne Floristik Steinbrecher 等）。監護人為聯邦勞動社會部長 Bärbel Bas。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r19",
+      "title": "美國NLRB：Lion Elastomers LLC 第二補充裁決與發回令（General Motors 標準）",
+      "originalTitle": "美國NLRB：Lion Elastomers LLC 第二補充裁決與發回令（General Motors 標準）",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "nlrb.gov"
+      ],
+      "urls": [
+        "https://www.nlrb.gov/case/16-CA-190681"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-24",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 19,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "NLRB 於 2026-09-23 發布第二補充裁決與發回令（375 NLRB No. 41；案號 16-CA-190681）。第五巡迴法院先前撤銷董事會在本案推翻 General Motors 標準之做法；董事會遂發回行政法官依該標準續審，事關受保護活動中員工行為是否仍受 NLRA 保障。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r20",
+      "title": "美國NLRB：Michigan Education Association 裁決（律師—客戶特權與資訊提供）",
+      "originalTitle": "美國NLRB：Michigan Education Association 裁決（律師—客戶特權與資訊提供）",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "nlrb.gov"
+      ],
+      "urls": [
+        "https://www.nlrb.gov/case/07-CA-261392"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-24",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 20,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "NLRB 於同日發布裁決（375 NLRB No. 42；案號 07-CA-261392）：若資料受律師—客戶保密特權（及律師工作成果特權）涵蓋，即無須再依 Detroit Edison 利益衡量向請求方提供；採納行政法官建議並駁回告訴。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r21",
+      "title": "APEC運輸部長會後新聞談數位創新",
+      "originalTitle": "APEC TMM12：會後續報（數位創新與供應鏈韌性；時程無異動）",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "apec.org"
+      ],
+      "urls": [
+        "https://www.apec.org/press/news-releases/2026/0923_TMM"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-24",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 21,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "apec.org 於 2026-09-23 發布第12屆運輸部長會後續新聞稿，補充北京會（9/22）在數位創新與供應鏈韌性上的討論，並援引政策支援單元研究數據（2015–2025 亞太鐵路約增9%、機場連通性約3.8%、海運約12%等）。會議時程本身無異動；此為 9/22 聯合聲明與官方新聞稿後之官方續報。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "9月23日官方續報引述2015–2025鐵路、機場及海運連通性數據。發布日在會議之後，也晚於原檔名義日期。",
+      "verifiedPublicationDate": "2026-09-23",
+      "verifiedEventDate": "2026-09-22（文內Tuesday）",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.apec.org/press/news-releases/2026/0923_TMM"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r22",
+      "title": "日本｜厚勞省「雇用と福祉の果たすべき機能・役割と連携」中間とりまとめ",
+      "originalTitle": "日本｜厚勞省「雇用と福祉の果たすべき機能・役割と連携」中間とりまとめ",
+      "country": "日本",
+      "category": "身障與包容就業",
+      "sources": [
+        "mhlw.go.jp"
+      ],
+      "urls": [
+        "https://www.mhlw.go.jp/stf/newpage_76143.html"
+      ],
+      "sourceDateAsProvided": "2026-09-10",
+      "sortDate": "2026-09-10",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-24",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 22,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "日本厚生勞動省障害者就労雇用福祉横断検討会於官方頁公開「雇用と福祉の果たすべき機能・役割と連携の基本的考え方（中間とりまとめ）」（頁面標示 2026-09-10）。屬雇用與福祉分工／連攜之政策中間整理，與身障就業體系設計直接相關。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-21-r23",
+      "title": "韓國公共機關義務雇用與負擔金資料線索",
+      "originalTitle": "韓國公共機關義務雇用與負擔金資料線索",
+      "country": "韓國",
+      "category": "身障與包容就業",
+      "sources": [
+        "seoul.co.kr"
+      ],
+      "urls": [
+        "https://www.seoul.co.kr/news/politics/2026/09/23/20260923500295"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-24",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-21.csv",
+        "csvRow": 23,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r2",
+      "title": "中央社報導9月24日最低工資審議決議",
+      "originalTitle": "明年最低工資調至30,900元，勞團表遺憾",
+      "country": "台灣",
+      "category": "台灣勞政輿情",
+      "sources": [
+        "cna.com.tw",
+        "udn.com"
+      ],
+      "urls": [
+        "https://www.cna.com.tw/news/ahel/202609240332.aspx",
+        "https://udn.com/news/story/7238/9776691"
+      ],
+      "sourceDateAsProvided": "2026-09-24",
+      "sortDate": "2026-09-24",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 2,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "最低工資審議會9/24決議月薪由29,500元調至30,900元、時薪205元，調幅4.745%，待行政院核定。產總、全金聯等勞團認為未達期待（目標約7.77%、底線約5%），會中勞資為約400元差距僵持。台灣勞工陣線另籲統一《最低工資法》違法裁罰基準。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：部分內容有依據",
+      "verificationStatus": "partially_supported",
+      "verifiedSummary": "原稿支持月薪29,500元調至30,900元及4.745%調幅；當時仍待行政院核定。本項為當時報導，未驗證其後最新狀態。",
+      "verifiedPublicationDate": "2026-09-24T19:35:00+08:00",
+      "verifiedEventDate": "2026-09-24審議決議",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.cna.com.tw/news/ahel/202609240332.aspx"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r3",
+      "title": "勞保2027預算短絀約1,111.6億，連11年入不敷出",
+      "originalTitle": "勞保2027預算短絀約1,111.6億，連11年入不敷出",
+      "country": "台灣",
+      "category": "台灣勞政輿情",
+      "sources": [
+        "udn.com",
+        "news.tvbs.com.tw"
+      ],
+      "urls": [
+        "https://udn.com/news/story/7238/9780464",
+        "https://news.tvbs.com.tw/life/4028562"
+      ],
+      "sourceDateAsProvided": "2026-09-28",
+      "sortDate": "2026-09-28",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 3,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "依勞保基金2027年預算書，明年保費收入估約5,687.3億、給付約6,798.9億，短絀約1,111.6億，連二年破千億。普通事故費率調至法定上限13%，估增約230億，改善有限；潛藏負債至6月底逾13.8兆。勞保局強調政府撥補與投資績效仍支撐基金水位。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r4",
+      "title": "Le Forem啟用環境轉型職能訓練中心",
+      "originalTitle": "Le Forem啟用環境轉型職能訓練中心",
+      "country": "比利時",
+      "category": "職訓與MOU夥伴",
+      "sources": [
+        "leforem.be"
+      ],
+      "urls": [
+        "https://www.leforem.be/a-propos/communiques-presse/nouveau-centre-Forem-metiers-transition-environnementale.html"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 4,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "Le Forem於Jemappes啟用約6,000 m²之Forem Environnement中心，整併Mons／Froyennes能量。聚焦冷凍空調、能源整修、循環經濟與材料再利用等綠能職能，並與UMons合作。目標2028年前培訓1,000名求職者。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r5",
+      "title": "ILO：菲律賓擬定反強迫勞動／童工國家路徑圖",
+      "originalTitle": "ILO：菲律賓擬定反強迫勞動／童工國家路徑圖",
+      "country": "菲律賓",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/philippines-sets-roadmap-against-forced-labour-child-labour-and"
+      ],
+      "sourceDateAsProvided": "2026-09-28",
+      "sortDate": "2026-09-28",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 5,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "菲律賓勞動部等機關9/23–24於馬尼拉完成國家路徑圖研擬，整合強迫勞動、童工、人口販運與現代奴役對策，爭取成為Alliance 8.7 Pathfinder。童工數自2023年67.8萬降至2025年50.9萬，路徑圖預計第四季送秘書處認可。ILO以加拿大資助之FOA-CL、PRIME PH計畫提供技術支援。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r6",
+      "title": "ILO生活工資計畫首批公私協力協議（RBA、Unilever、amfori）",
+      "originalTitle": "ILO生活工資計畫首批公私協力協議（RBA、Unilever、amfori）",
+      "country": "其他跨國/全球",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/ilo-signs-first-public-private-partnership-agreements-advance-inclusive"
+      ],
+      "sourceDateAsProvided": "2026-09-24",
+      "sortDate": "2026-09-24",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 6,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO生活工資計畫與RBA、Unilever、amfori簽署首批公私協力協議，將2024年三方工資／生活工資結論轉為會員國層級估算與落地支持。強調尊重國家工資訂定機制與集體協商自主。三案分別聚焦供應鏈估算、營運國三方圓桌與路線圖、amfori會員採購國估算與數據蒐集。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r7",
+      "title": "ILO公告社會保護多捐助者專案結案",
+      "originalTitle": "ILO社會保護旗艦計畫第二期結案：逾900萬人覆蓋改善",
+      "country": "其他跨國/全球",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/ilo-project-improves-social-protection-coverage-over-nine-million-people"
+      ],
+      "sourceDateAsProvided": "2026-09-25",
+      "sortDate": "2026-09-25",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 7,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "比利時、盧森堡資助之全球社會保護底線旗艦第二期（2021–25）結案，逾900萬人社會保護近用改善。涵蓋東南亞與西／中非六國，含寮國健保社保管理強化及非正規經濟納保、自動加保機制。第三期（2026–30）將延續。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "9月25日新聞稱支持旗艦計畫第二期的專案改善逾900萬人的社會保護近用。此數字不應改寫為900萬新增首次納保者。",
+      "verifiedPublicationDate": "2026-09-25",
+      "verifiedEventDate": "結案研討2026-09-23；計畫2021–2025",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.ilo.org/resource/news/ilo-project-improves-social-protection-coverage-over-nine-million-people"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r8",
+      "title": "英國HSE：TfL公共運輸動線安全案件線索",
+      "originalTitle": "英國HSE：TfL公共運輸動線安全案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/09/25/transport-for-london-convicted-after-vibrant-member-of-community-grace-mecaley-74-killed-while-crossing-road/"
+      ],
+      "sourceDateAsProvided": "2026-09-25",
+      "sortDate": "2026-09-25",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 8,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r9",
+      "title": "英國HSE：Corniche建案安全案件線索",
+      "originalTitle": "英國HSE：Corniche建案安全案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/09/24/two-major-companies-sentenced-over-death-of-man-killed-by-window-falling-from-luxury-penthouse/"
+      ],
+      "sourceDateAsProvided": "2026-09-24",
+      "sortDate": "2026-09-24",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-29",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 9,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r10",
+      "title": "英國宣布2027年擴大青年就業保證措施",
+      "originalTitle": "英國擴大Jobs Guarantee：身障青年保證就業",
+      "country": "英國（含北愛）",
+      "category": "身障與包容就業",
+      "sources": [
+        "gov.uk"
+      ],
+      "urls": [
+        "https://www.gov.uk/government/news/thousands-of-young-disabled-people-to-be-offered-guaranteed-jobs"
+      ],
+      "sourceDateAsProvided": "2026-09-27",
+      "sortDate": "2026-09-27",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 10,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "英國DWP宣布自2027年4月起，領取健康相關給付之合格青年於工作能力評估後第13週起，可自願獲得保證就業。政府負擔最多每週25小時、6個月全額薪資，雇主另獲入職成本支援，並搭配師徒輔導與心理健康、財務、住房等準備支持。整體Jobs Guarantee目標於本屆國會會期結束前協助至多約9萬名青年。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "9月27日DWP公告預計2027年4月擴大至合格健康給付青年，採自願參與，薪資補助最多每週25小時、6個月。",
+      "verifiedPublicationDate": "2026-09-27",
+      "verifiedEventDate": "擴大措施預計2027-04",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.gov.uk/government/news/thousands-of-young-disabled-people-to-be-offered-guaranteed-jobs"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r11",
+      "title": "韓國關係企業障害者標準事業場實施資料線索",
+      "originalTitle": "韓國關係企業障害者標準事業場實施資料線索",
+      "country": "韓國",
+      "category": "身障與包容就業",
+      "sources": [
+        "hankookilbo.com"
+      ],
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2026092621490003900"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 11,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r12",
+      "title": "英國HSE公布輸送機安全案件判罰結果",
+      "originalTitle": "英國HSE：Gill Aggregates職安案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/09/29/aggregates-company-fined-24000-after-worker-killed-in-conveyor-crush/"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 12,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "抽樣：已提供更正說明",
+      "verificationStatus": "correction_required",
+      "verifiedSummary": "HSE 9月29日公告記載9月28日判罰£24,000及訟費£43,000。2020年6月24日是事故日，死亡发生於數日後，原摘要日期應修正。",
+      "verifiedPublicationDate": "2026-09-29",
+      "verifiedEventDate": "事故2020-06-24；死亡數日後；判罰2026-09-28",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://press.hse.gov.uk/2026/09/29/aggregates-company-fined-24000-after-worker-killed-in-conveyor-crush/"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r13",
+      "title": "ILO：印尼雇主團體籌備參與OECD入會改革",
+      "originalTitle": "ILO：印尼雇主團體籌備參與OECD入會改革",
+      "country": "印尼",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/indonesian-employers-prepare-shape-major-policy-reforms"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 13,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "印尼雇主協會APINDO於9/24舉辦OECD入會策略工作坊，ILO ACT/EMP、OECD、Business at OECD與印尼經濟統籌部代表與會。討論雇主如何以企業實證參與入會改革，議題分勞動政策（工資、勞檢、僱傭關係、爭議處理、社會保護、平台工作）、技能與負責任商業行為三軌。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r14",
+      "title": "ILO：印度移工照護者，24個工會組織發表跨境合作聲明",
+      "originalTitle": "ILO：印度移工照護者，24個工會組織發表跨境合作聲明",
+      "country": "印度",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/trade-unions-strengthen-cross-border-cooperation-promote-decent-work-indian"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 14,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO Migrant Care計畫海德拉巴圓桌後，印度中央及部門工會與PSI、SARTUC、ITUC Asia Pacific等24個組織發表聯合聲明。要求雙邊勞動遷移協議由來源國與目的國工會共同參與制訂與監測，並主張零招募費、透明契約、資格承認、結社自由與可攜式社會保護。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r15",
+      "title": "ILO與UNHCR擴大衣索比亞難民與收容社區就業合作",
+      "originalTitle": "ILO與UNHCR擴大衣索比亞難民與收容社區就業合作",
+      "country": "衣索比亞",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/ilo-and-unhcr-strengthen-partnership-advance-decent-work-refugees-and-host"
+      ],
+      "sourceDateAsProvided": "2026-09-25",
+      "sortDate": "2026-09-25",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 15,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO與UNHCR簽署衣索比亞補充諒解文件，在荷蘭資助之PROSPECTS架構下擴大難民與收容社區之技能、就業與生計支持。ILO表示雙方聯合介入已觸及逾52.4萬人。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r16",
+      "title": "南韓國民年金7月底準備金減約182兆韓元",
+      "originalTitle": "南韓國民年金7月底準備金減約182兆韓元",
+      "country": "韓國",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "ajupress.com"
+      ],
+      "urls": [
+        "https://www.ajupress.com/view/20260929204070803"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-09-30",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 16,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "Aju Press引述南韓國民年金基金管理本部，7月底準備金約1,684兆韓元，較6月底減約182兆，主因股價波動。國內股票估值約由543兆降至419兆、海外股票約由661兆降至624兆；截至7月底暫計累積報酬約14.84%。參考性資訊，不得作為投資或基金配置依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r18",
+      "title": "英國DWP Pathways to Work Innovation Fund徵案（約£60m）",
+      "originalTitle": "英國DWP Pathways to Work Innovation Fund徵案（約£60m）",
+      "country": "英國（含北愛）",
+      "category": "身障與包容就業",
+      "sources": [
+        "gov.uk"
+      ],
+      "urls": [
+        "https://www.gov.uk/government/news/call-for-bold-new-ideas-to-support-disabled-people-and-those-with-health-conditions-into-work"
+      ],
+      "sourceDateAsProvided": "2026-10-01",
+      "sortDate": "2026-10-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 18,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "英國DWP公開徵求協助身心障礙者及健康狀況者就業之創新構想，基金規模約£60m，徵案截止2026-10-26。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r19",
+      "title": "APEC財政部長會議10/19–21於香港舉行",
+      "originalTitle": "APEC財政部長會議10/19–21於香港舉行",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "trade.gov.tw"
+      ],
+      "urls": [
+        "https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=1582&pid=809707"
+      ],
+      "sourceDateAsProvided": "2026-10-01",
+      "sortDate": "2026-10-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 19,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "apec.org與國貿署日程均列APEC財政部長會議（FMM）於2026年10月19–21日在香港舉行。SCMP報導會期主體10/20–21、場地灣仔會展、約500名代表，並報導港府維安整備。屬領袖週前重要部長級節點。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 1
+    },
+    {
+      "id": "grok-2026-09-28-r20",
+      "title": "ILO報告：非正式經濟擴大社會安全覆蓋（中國、肯亞、寮國）",
+      "originalTitle": "ILO報告：非正式經濟擴大社會安全覆蓋（中國、肯亞、寮國）",
+      "country": "其他跨國/全球",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/ilo-report-highlights-pathways-expand-social-security-coverage-workers"
+      ],
+      "sourceDateAsProvided": "2026-09-30",
+      "sortDate": "2026-09-30",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 20,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO於曼谷發布報告，指出非正式就業比重高、雇傭關係複雜、繳費能力有限與參與成本高為共同挑戰。彙整公共財源補貼搭配貢獻制、靈活參與途徑、統一數位服務平台與試辦計畫（含中國新形態就業職業傷害保障試辦）；肯亞與寮國著重非貢獻制底層保障與行動支付。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r21",
+      "title": "秘魯最低工資分兩段調升至S/1,300",
+      "originalTitle": "秘魯最低工資分兩段調升至S/1,300",
+      "country": "秘魯",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "elperuano.pe"
+      ],
+      "urls": [
+        "https://elperuano.pe/noticia/305663-gobierno-oficializa-incremento-de-la-remuneracion-minima-vital-a-s-1300-en-dos-tramos"
+      ],
+      "sourceDateAsProvided": "2026-09-28",
+      "sortDate": "2026-09-28",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 21,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "秘魯以最高法令DS Nº 015-2026-TR公布最低工資分兩段調升：自2026-10-01起由S/1,130增至S/1,230；第二段再增S/70至S/1,300，須另以最高法令於2027年上半年發布後生效。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r22",
+      "title": "美國第十巡迴法院：多雇主年金「完全退出」條款不得擴張解釋",
+      "originalTitle": "美國第十巡迴法院：多雇主年金「完全退出」條款不得擴張解釋",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "ca10.uscourts.gov"
+      ],
+      "urls": [
+        "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111516857.pdf"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 22,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "第十巡迴法院判決Phillips v. Boilermaker-Blacksmith National Pension Trust，認定「完全退出」僅排除列明之集體協商職類工作，不得僅因退休者轉任其他繳費雇主即停發提早退休金。未依法告知兩年起訴期限者不得主張時效；66名原告受託義務時效部分發回，三年時效自實際知悉起算。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r23",
+      "title": "CPP Investments首筆印度飯店業投資",
+      "originalTitle": "CPP Investments首筆印度飯店業投資",
+      "country": "加拿大",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "newswire.ca"
+      ],
+      "urls": [
+        "https://www.newswire.ca/news-releases/cpp-investments-enters-india-s-hospitality-sector-with-investment-in-prestige-hospitality-ventures-834507421.html"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 23,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "CPP Investments宣布投資印度Prestige Hospitality Ventures INR 300億（約C$4.41億），取得約27%股權，支持其平台擴張。截至2026-06-30基金規模約C$8,636億。參考性資訊，不得作為投資或基金配置依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r24",
+      "title": "馬來西亞PERKESO Op Kesan 2.0執法擴及gig勞工",
+      "originalTitle": "馬來西亞PERKESO Op Kesan 2.0執法擴及gig勞工",
+      "country": "馬來西亞",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "humanresourcesonline.net"
+      ],
+      "urls": [
+        "https://www.humanresourcesonline.net/perkeso-expands-op-kesan-2-0-to-cover-gig-workers-hawkers-and-self-employed-malaysians"
+      ],
+      "sourceDateAsProvided": "2026-09-23",
+      "sortDate": "2026-09-23",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 24,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "PERKESO依Gig Workers Act 2025與Self-Employed Social Security Act 2017，要求平台業者確保e-hailing、p-hailing等gig勞工登記並繳納LINDUNG Kendiri，平台部門執法自2026-10-01起算。報導稱已登記約117萬名gig勞工，2020年至2026年9月累計開出25,011張罰單、起訴21,177件。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r25",
+      "title": "日本促進協（JEAP）發布首部業界事業指引",
+      "originalTitle": "日本促進協（JEAP）發布首部業界事業指引",
+      "country": "日本",
+      "category": "身障與包容就業",
+      "sources": [
+        "prtimes.jp"
+      ],
+      "urls": [
+        "https://prtimes.jp/main/html/rd/p/000000024.000129743.html"
+      ],
+      "sourceDateAsProvided": "2026-09-30",
+      "sortDate": "2026-09-30",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 25,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "日本相關業界團體（促進協，JEAP）發布首部業界事業ガイドライン，屬自主規範而非官方法令。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r26",
+      "title": "韓國金融業身障雇用與負擔金資料線索",
+      "originalTitle": "韓國金融業身障雇用與負擔金資料線索",
+      "country": "韓國",
+      "category": "身障與包容就業",
+      "sources": [
+        "yna.co.kr"
+      ],
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260930196600002"
+      ],
+      "sourceDateAsProvided": "2026-10-01",
+      "sortDate": "2026-10-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-01",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 26,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r27",
+      "title": "英國DWP神經多樣性就業專家小組最終報告與政府回應",
+      "originalTitle": "英國DWP神經多樣性就業專家小組最終報告與政府回應",
+      "country": "英國（含北愛）",
+      "category": "身障與包容就業",
+      "sources": [
+        "gov.uk"
+      ],
+      "urls": [
+        "https://www.gov.uk/government/news/new-report-backs-government-action-to-help-neurodivergent-people-succeed-at-work"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 27,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "DWP發布獨立神經多樣性專家學術小組最終報告與政府回應，建議依個人需求與優勢（非僅依診斷）提供支持，並擴大職場通用設計。Connect to Work神經多樣性／學習障礙專門路徑截至6月底約1,000人就業（青年約470人），政府並啟動16週通用設計政策探索。報告專頁當日未能開啟，完整正文待補。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r28",
+      "title": "英國就業法庭請求時效修法於10月1日生效",
+      "originalTitle": "英國就業法庭多數請求時效由3個月延長為6個月",
+      "country": "英國（含北愛）",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "legislation.gov.uk"
+      ],
+      "urls": [
+        "https://www.legislation.gov.uk/uksi/2026/954/made/data.html"
+      ],
+      "sourceDateAsProvided": "2026-10-01",
+      "sortDate": "2026-10-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 28,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "依Employment Rights Act 2025第152條及附表12，經SI 2026/954於2026-10-01生效，多數就業法庭請求時效由3個月延長為6個月，涵蓋不公平解雇、非法扣薪、平等法歧視與騷擾等。僅相關日在2026-10-01當日或之後之案件適用。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：日期類型已釐清",
+      "verificationStatus": "date_type_correction_required",
+      "verifiedSummary": "法規第3、4條及說明支持部分請求時效3個月延至6個月及過渡規則。法規制定日為9月1日；10月1日是生效日。",
+      "verifiedPublicationDate": "制定2026-09-01；網頁發布日未列",
+      "verifiedEventDate": "2026-10-01",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.legislation.gov.uk/uksi/2026/954/made/data.html"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r29",
+      "title": "越南核定2026–2031高齡社會方案，與ILO合作延長職涯",
+      "originalTitle": "越南核定2026–2031高齡社會方案，與ILO合作延長職涯",
+      "country": "越南",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/viet-nam-readies-itself-support-ageing-society-decent-work-skills-and"
+      ],
+      "sourceDateAsProvided": "2026-09-03",
+      "sortDate": "2026-09-03",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 29,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "越南總理核定2026–2031五年方案，邀請ILO協助勞動市場政策、延長工作年限、再技能、年齡友善職場與高齡勞工保護。方案銜接2025年高齡國民策略（2030年前有意願且能工作之高齡者至少半數就業）及2026-07-01施行之人口法。2024年約260萬名65歲以上者仍在工作。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r30",
+      "title": "美國Trader Joe's案：401(k)沒收款抵減雇主提撥不違ERISA",
+      "originalTitle": "美國Trader Joe's案：401(k)沒收款抵減雇主提撥不違ERISA",
+      "country": "美國",
+      "category": "勞動法與爭議判例",
+      "sources": [
+        "lawyer-monthly.com"
+      ],
+      "urls": [
+        "https://www.lawyer-monthly.com/2026/09/trader-joes-wins-key-401k-forfeiture-claim-in-erisa-lawsuit/"
+      ],
+      "sourceDateAsProvided": "2026-09-28",
+      "sortDate": "2026-09-28",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 30,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "麻州聯邦地院於Stephen et al. v. Trader Joe's認定，將離職員工未既得之逾3,700萬美元沒收款用於抵減雇主未來提撥不構成ERISA受託義務違反，為約百件同類訴訟中首件進入審判者。同案認定記帳費監管未盡謹慎，判賠約120萬美元。依法律專業媒體轉述，判決全文未經官方頁面核對。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r31",
+      "title": "ILO評估：尼泊爾水患洪氾區4公里內約2.14萬就業人口受暴露",
+      "originalTitle": "ILO評估：尼泊爾水患洪氾區4公里內約2.14萬就業人口受暴露",
+      "country": "尼泊爾",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/news/nepal-floods-threaten-jobs-and-livelihoods-far-beyond-affected-areas-ilo"
+      ],
+      "sourceDateAsProvided": "2026-10-01",
+      "sortDate": "2026-10-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 31,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO快速評估指2026-08-26 Bhote Koshi–Trishuli廊道山洪後，約21,400名就業人口居住於洪氾範圍4公里內，觀光、農業、運輸與微型企業受壓最大；口岸貿易中斷可能外溢至就業與所得。數字為暴露估計而非已確認失業數。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r32",
+      "title": "加拿大安大略：St. Marys Cement職安案件線索",
+      "originalTitle": "加拿大安大略：St. Marys Cement職安案件線索",
+      "country": "加拿大",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "news.ontario.ca"
+      ],
+      "urls": [
+        "https://news.ontario.ca/en/court/1008057/cement-manufacturer-fined-475000-after-worker-fatality-at-bowmanville-plant"
+      ],
+      "sourceDateAsProvided": "2026-09-14",
+      "sortDate": "2026-09-14",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 32,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r33",
+      "title": "ABAC第4次會議11/14–16於深圳",
+      "originalTitle": "ABAC第4次會議11/14–16於深圳",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "www2.abaconline.org"
+      ],
+      "urls": [
+        "https://www2.abaconline.org/page-content/events"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 33,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ABAC官方行程列出第4次會議於2026年11月14日至16日在深圳舉行，銜接同城CEO Summit（11/17–18）與經濟領袖會議AELM（11/18–19）。經團連所列日程與官方頁一致。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-09-28-r34",
+      "title": "CEO Summit美國企業報名數居首",
+      "originalTitle": "CEO Summit美國企業報名數居首",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "english.news.cn"
+      ],
+      "urls": [
+        "https://english.news.cn/20260929/1b51e2e7b368483f9abeeaabe7dfb91e/c.html"
+      ],
+      "sourceDateAsProvided": "2026-09-29",
+      "sortDate": "2026-09-29",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-02",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-09-28.csv",
+        "csvRow": 34,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "中國貿促會發言人9/29表示，美國為APEC工商領導人峰會目前報名企業數最多之經濟體，Amazon、Walmart、Apple、Google、ExxonMobil、Microsoft等已提出申請。峰會仍訂深圳11/17–18、約千名政商代表。單一通訊社（新華社）轉述官方說法。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r2",
+      "title": "新加坡媒體報導身障就業與訓練強化建議",
+      "originalTitle": "新加坡身障家庭保障工作小組提出就業與訓練強化建議",
+      "country": "新加坡",
+      "category": "身障與包容就業",
+      "sources": [
+        "channelnewsasia.com",
+        "mom.gov.sg"
+      ],
+      "urls": [
+        "https://www.channelnewsasia.com/singapore/work-internships-job-tasters-students-disabilities-task-force-6423766",
+        "https://www.mom.gov.sg/newsroom/speeches/2026/1004-sps-remarks-at-pwds-taskforce-press-conference"
+      ],
+      "sourceDateAsProvided": "2026-10-04",
+      "sortDate": "2026-10-04",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 2,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "新加坡身心障礙者家庭保障工作小組10/4發布報告，建議自2027年起於特教學校、ITE及理工學院強化工作體驗與職場軟技能訓練，並將SG Enable 95%學費補助擴及合格主流課程。雇主端擬整併三項補助為Enabling Employment Grant（2027上半年），並提高Enabling Employment Credit所得上限與抵減額度。SG Enable將設就業支援辦公室作單一窗口（2027下半年全面運作），2028年起對高支持需求者提供逾12個月就業支持；15–64歲身障者就業率由2024年33.6%升至2025年34.7%。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：僅媒體原稿核對",
+      "verificationStatus": "media_supported_official_unreadable",
+      "verifiedSummary": "10月4日CNA報導支持95%學費補助擴大、2027年補助整併與就業支援窗口等規劃。指定人力部頁面本次無法讀取，僅完成媒體原稿核對。",
+      "verifiedPublicationDate": "2026-10-04T18:00:00+08:00；更新2026-10-05T10:56:00+08:00",
+      "verifiedEventDate": "報告2026-10-04；措施2027–2028",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.channelnewsasia.com/singapore/work-internships-job-tasters-students-disabilities-task-force-6423766",
+        "https://www.mom.gov.sg/newsroom/speeches/2026/1004-sps-remarks-at-pwds-taskforce-press-conference"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r3",
+      "title": "普丁獲邀出席深圳APEC領袖會議，中方表態歡迎",
+      "originalTitle": "普丁獲邀出席深圳APEC領袖會議，中方表態歡迎",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "mfa.gov.cn",
+        "en.kremlin.ru"
+      ],
+      "urls": [
+        "https://www.mfa.gov.cn/fyrbt_673021/202610/t20261003_12035446.shtml",
+        "http://en.kremlin.ru/events/president/news/80901"
+      ],
+      "sourceDateAsProvided": "2026-10-03",
+      "sortDate": "2026-10-03",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 3,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "俄外交部發言人9/30證實普丁獲邀出席11/18–19深圳AELM，普丁10/1致習近平賀電亦提及期待深圳峰會會晤。中國外交部10/3表示歡迎普丁出席，對中美俄三方會晤稱目前沒有可提供的信息。俄方尚未正式宣布出訪行程。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r4",
+      "title": "非盟—GCC+第二屆勞動移轉對話10/5–6登場，非洲三方提16項共同建議",
+      "originalTitle": "非盟—GCC+第二屆勞動移轉對話10/5–6登場，非洲三方提16項共同建議",
+      "country": "其他跨國/全球",
+      "category": "一般勞動市場社保工資移工",
+      "sources": [
+        "ilo.org"
+      ],
+      "urls": [
+        "https://www.ilo.org/resource/article/african-tripartite-partners-agree-common-labour-migration-approach"
+      ],
+      "sourceDateAsProvided": "2026-10-01",
+      "sortDate": "2026-10-01",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 4,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "ILO 10/1發布，非盟28個會員國之政府、雇主與勞工組織9/22–23在奈洛比議定對GCC+勞動移轉之共同立場與16項建議，作為10/5–6坦尚尼亞三蘭港對話基礎。重點包括將技能認證與先前學習認證（RPL）納入雙邊勞動協定、擴大移工社會保護、落實公平招募，並設聯合秘書處與路線圖。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r5",
+      "title": "韓國法院身障者義務雇用資料線索",
+      "originalTitle": "韓國法院身障者義務雇用資料線索",
+      "country": "韓國",
+      "category": "身障與包容就業",
+      "sources": [
+        "donga.com"
+      ],
+      "urls": [
+        "https://www.donga.com/news/Society/article/all/20261003/134780376/1"
+      ],
+      "sourceDateAsProvided": "2026-10-03",
+      "sortDate": "2026-10-03",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 5,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r6",
+      "title": "泰國TGI與Mitsubishi Electric Factory Automation (Thailand)簽署MOU",
+      "originalTitle": "泰國TGI與Mitsubishi Electric Factory Automation (Thailand)簽署MOU",
+      "country": "泰國",
+      "category": "職訓與MOU夥伴",
+      "sources": [
+        "tgi.or.th"
+      ],
+      "urls": [
+        "https://www.tgi.or.th/newstotal/6"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 6,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "本署MOU夥伴Thai-German Institute 10/2於官網發布與Mitsubishi Electric Factory Automation (Thailand)簽署合作備忘錄。合作範圍與具體內容目前僅見官網標題，詳情待查，單一來源。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r7",
+      "title": "傳川普赴深圳APEC前先到馬尼拉出席東協峰會",
+      "originalTitle": "傳川普赴深圳APEC前先到馬尼拉出席東協峰會",
+      "country": "APEC跨經濟體",
+      "category": "APEC進程與成果",
+      "sources": [
+        "news.ltn.com.tw"
+      ],
+      "urls": [
+        "https://news.ltn.com.tw/news/world/paper/1773187"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 7,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "南華早報10/2引述知情人士，白宮研議讓川普11/16–18先赴馬尼拉出席東協峰會並與小馬可仕會談，再於11/18轉往深圳出席APEC，預計與習近平會晤。單一媒體引述匿名消息，白宮尚未證實。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r8",
+      "title": "NBIM公告承諾投入12億歐元再生能源基金",
+      "originalTitle": "NBIM承諾12億歐元投入CIP第六期再生能源基金",
+      "country": "挪威",
+      "category": "公共退休基金與投資",
+      "sources": [
+        "nbim.no"
+      ],
+      "urls": [
+        "https://www.nbim.no/en/news-and-insights/the-press/press-releases/2026/new-investment-in-unlisted-renewable-energy-infrastructure2/"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 8,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": "NBIM 10/2公告承諾12億歐元投入Copenhagen Infrastructure Partners第六期旗艦基金CI VI（10/1簽約），投資北美、西歐及亞太OECD國家再生能源發電與儲能開發期專案；2024年曾投入CI V 9億歐元。參考性資訊，不作投資依據。",
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "此欄保留附件的整理內容，不表示網站已確認其日期、數字、法律效果或事件真實性",
+      "verificationLabel": "抽樣：核心內容有依據",
+      "verificationStatus": "core_supported",
+      "verifiedSummary": "10月2日官方公告記載10月1日簽約，承諾12億歐元投入CIP第六期基金。承諾不等於當日已全額撥款。",
+      "verifiedPublicationDate": "2026-10-02",
+      "verifiedEventDate": "簽約2026-10-01",
+      "sampleNotes": [
+        "抽樣查核日：2026-10-05。以下為本次依原文另寫的摘要與欄位核對，不表示原附件已修正或全部內容已查證。"
+      ],
+      "verifiedSourceUrls": [
+        "https://www.nbim.no/en/news-and-insights/the-press/press-releases/2026/new-investment-in-unlisted-renewable-energy-infrastructure2/"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r9",
+      "title": "英國HSE：營造業高處作業安全案件線索",
+      "originalTitle": "英國HSE：營造業高處作業安全案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "press.hse.gov.uk"
+      ],
+      "urls": [
+        "https://press.hse.gov.uk/2026/10/02/construction-company-fined-120000-after-worker-dies-in-fall-from-height/"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 9,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r10",
+      "title": "北愛HSENI：工地車輛作業安全案件線索",
+      "originalTitle": "北愛HSENI：工地車輛作業安全案件線索",
+      "country": "英國（含北愛）",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "hseni.gov.uk"
+      ],
+      "urls": [
+        "https://www.hseni.gov.uk/news/groundwork-and-construction-companies-fined-ps145000-following-death-worker"
+      ],
+      "sourceDateAsProvided": "2026-10-02",
+      "sortDate": "2026-10-02",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 10,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    },
+    {
+      "id": "grok-2026-10-05-r11",
+      "title": "印度Sri City工廠設備事故報導線索",
+      "originalTitle": "印度Sri City工廠設備事故報導線索",
+      "country": "印度",
+      "category": "職安事故執法與法規",
+      "sources": [
+        "newindianexpress.com"
+      ],
+      "urls": [
+        "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/03/five-killed-in-boiler-explosion-at-til-healthcare-unit-in-andhras-sri-city"
+      ],
+      "sourceDateAsProvided": "2026-10-03",
+      "sortDate": "2026-10-03",
+      "sourceDatePrecision": "day",
+      "collectionDate": "2026-10-05",
+      "collectionDateNote": "依附件彙整欄所載；非本次獨立查核日期",
+      "importedAt": "2026-10-05",
+      "provenance": {
+        "fileName": "幕僚週報_2026-10-05.csv",
+        "csvRow": 11,
+        "provider": "Grok歷史彙整"
+      },
+      "summary": null,
+      "summaryAttribution": "Grok原稿安全節錄；本次尚未逐項核實",
+      "summaryNote": "涉及尚未獨立核實的個案、傷亡、裁罰或指控，僅保留中性研究線索",
+      "verificationLabel": "匯入線索 · 待核對",
+      "verificationStatus": "unverified_import",
+      "verifiedSummary": null,
+      "verifiedPublicationDate": null,
+      "verifiedEventDate": null,
+      "sampleNotes": [
+        "未經本次獨立核對；來源日期、數字與政策狀態均須回原文確認。"
+      ],
+      "duplicateUrlCount": 0
+    }
+  ]
+}
