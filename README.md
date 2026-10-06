@@ -43,7 +43,7 @@ python3 collector.py --sources sources.json --state-dir private-state
 
 人工逐項核對原文、日期、權利及隱私，再另外撰寫中性短摘要；取得公開核准後才更新 `docs/data.json` 與對應 HTML 卡片。`grok.json` 保持獨立歷史集合，不能用候選 feed 自動覆蓋。更新後重建對應檔案雜湊、檢查差異並重新測試，最後手動提交與發布。
 
-蒐集器沒有 cron、背景 daemon、自動核准或自動發布；collector 模板留在 templates，不是啟用的 workflow。Pages 會在人工推送 main 的 docs 變更後進行平台部署，只提供已提交的靜態資料，不會代跑蒐集器。
+蒐集器沒有 cron、背景 daemon、自動核准或自動發布；collector 模板留在 templates；另有下述明確授權的手動健康檢查 workflow。Pages 會在人工推送 main 的 docs 變更後進行平台部署，只提供已提交的靜態資料，不會代跑蒐集器。
 
 [GitHub 官方 Pages 發布來源說明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)（2026-10-06 核對）
 
@@ -56,3 +56,16 @@ python3 collector.py --sources sources.json --state-dir private-state
 ## 內容權利
 
 本站提供短摘要及來源導航，不授予第三方原文、圖片或附件再散布權，也不是政府官方網站或法律意見。來源權利由各自權利人保有；未額外替第三方內容授予授權。
+
+
+## 一次性手動 RSS 健康檢查
+
+使用者已授權 `.github/workflows/manual-rss-health.yml`，只接受 `workflow_dispatch`；不接受 push、PR 或 cron 觸發，不自動發布文章。到 Actions → Manual RSS health metadata → Run workflow → main 手動執行。不要短時間重複執行；本次授權每源一次，未來重試先另行確認。沒有持久化退避狀態，不能當成例行蒐集器。
+
+工作限 5 分鐘、單一 `ubuntu-latest` 標準 GitHub-hosted runner、僅 `contents: read`，checkout 不保留憑證。沒有自訂 secrets、付費 runner、快取、artifact、git push 或候選資料檔案。先跑 40 項 collector 及 8 項 probe 離線測試，再各試 MHLW、MOEL、WDA 一次；每源子程序 70 秒上限，沿用 collector 的 HTTPS/public DNS/IP pin/TLS、15 秒 socket、2 MiB、最多 2,000 項、最多 3 次同 allowlist redirect 等限制。不繞過安全驗證、代理或來源存取限制。
+
+只在記憶體複製設定用於 probe，repository 的三源仍 disabled。body 與候選內容只存在短命程序記憶體，不寫入檔案、log、摘要或 artifact。公開 log 只記來源 ID、HTTP/parse 狀態、accepted/skipped 數量、已知日期欄位覆盖、最後可解析日期、bytes、SHA-256 與白名單錯誤碼；不含標題、正文、個人姓名、email、原始日期字串或例外訊息。`last_date` 是已解析 publication/update 欄位最大值，不是生效日；自訂 `DateTime` 等未支援欄位保持未知。
+
+失敗、部分解析、日期未知不等於沒有新政策。成功亦只證明該次回應可讀，不證明內容正確、全面或可再散布。MHLW 使用限制仍適用，嚴禁將 feed 內容移入公開網站。這個工作不改 `docs/`，既有 Pages 平台部署只提供已提交靜態資料。
+
+費用：依 2026-10-06 核對的 [GitHub 官方規則](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)，public repository 的標準 GitHub-hosted runner 使用免費，本次預期 runner 費用 US$0。這不是永久免費承諾；平台仍有服務、並行及使用限制，改成 private repository 或非標準 runner 前必須重新核對並取得授權。

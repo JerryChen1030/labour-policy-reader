@@ -3,13 +3,17 @@
   "preparedAt": "2026-10-06",
   "publicationStatus": "prepared; verify remote commit and Pages deployment separately",
   "files": {
+    ".github/workflows/manual-rss-health.yml": {
+      "bytes": 743,
+      "sha256": "3797b8ffd62dd277bafc29a0a33f4697a5ba64c893a76a9ddf333e6c19ae05ca"
+    },
     ".gitignore": {
       "bytes": 86,
       "sha256": "83e95fd186e19a75d660382460dcd41b4896f563992db6ab88b6e8b5ccc4304d"
     },
     "README.md": {
-      "bytes": 4831,
-      "sha256": "32898f6e961999be52fc69fccea75c63e70bc68744d0fc800d2aa9f49b32181c"
+      "bytes": 7086,
+      "sha256": "f822b84bc2af1804aeec20e59af34a5ac1065074a96a77522de8cc8bc6cab9a8"
     },
     "collector/.gitignore": {
       "bytes": 54,
@@ -91,9 +95,18 @@
       "bytes": 7600,
       "sha256": "cdf761c3feedacb4c3184d4e44b380025d419a9f6f6fb90a7895283bdb95dbc7"
     },
+    "tools/rss_health_probe.py": {
+      "bytes": 3802,
+      "sha256": "651dea8375dd5525f9372d8b3ae3c14f63936dc45fd4f34c7b0a35439487f965"
+    },
+    "tools/tests/test_rss_health_probe.py": {
+      "bytes": 3336,
+      "sha256": "6eae8277feaedb58f8ba5e37c51ec64fd8fd4ad833b64e3869e76c1d89b64801"
+    },
     "tools/verify_public.py": {
-      "bytes": 1702,
-      "sha256": "6c6caafd79c9089db2d2a272733fbffba3eda36c7360ba89217973c9512ba0fa"
+      "bytes": 1904,
+      "sha256": "b6e2f202c9459fe96c5b9ea7b5c8f60a3a041c5f1c62ac921e4514f196c06d49"
     }
-  }
+  },
+  "authorizedManualWorkflow": ".github/workflows/manual-rss-health.yml"
 }

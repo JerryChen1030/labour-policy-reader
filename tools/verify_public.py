@@ -29,5 +29,7 @@ html = (site / 'index.html').read_text()
 for link in re.findall(r'(?:src|href)=[\"\']([^\"\']+)', html):
     if not link.startswith(('https:', 'http:', '#', 'mailto:', 'data:image/svg+xml,')):
         assert (site / link.split('#')[0].split('?')[0]).is_file(), link
-assert '.github/workflows' not in '\n'.join(allowed)
-print(f'PASS: {len(allowed)} allowlisted files, SHA-256, static JSON, 94/16 counts, asset paths; no active workflow')
+workflows = {n for n in allowed if n.startswith('.github/workflows/')}
+assert workflows == {'.github/workflows/manual-rss-health.yml'}
+assert manifest['authorizedManualWorkflow'] == '.github/workflows/manual-rss-health.yml'
+print(f'PASS: {len(allowed)} allowlisted files, SHA-256, static JSON, 94/16 counts, asset paths; only explicitly authorized manual health workflow')
