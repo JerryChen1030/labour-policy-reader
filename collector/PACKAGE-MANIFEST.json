@@ -10,7 +10,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "588227fba1e07c8662902e86930f68224d2b2571b3b5a27aceead651f337b43f"
+      "sha256": "281311e23ef216554ece8ee886522ca2e946a0b1afea5d2735a12e98a0a74ab3"
     },
     {
       "path": "TEST-RESULTS.txt",
@@ -18,7 +18,7 @@
     },
     {
       "path": "WDA-DIAGNOSTICS.md",
-      "sha256": "6fd64309f85b3d4cd4b158954faae1419b5af65a6b8bd1dc682fcb534e0b3e99"
+      "sha256": "bb140aeac2e7d5e0d0f346d8a6a962e4ecd612b7af81bfcf775c1a1508a3c261"
     },
     {
       "path": "collector.py",
@@ -57,5 +57,5 @@
       "sha256": "6fe94fdce475a61404fbc7f388975dc42d211f284e5de46bd7f54b77e986dc6b"
     }
   ],
-  "status": "Candidate: 48 collector and 26 probe offline tests passed; first live candidate run received WDA HTML and failed closed; one separately authorized WDA-only diagnostic run pending; sources disabled; no source content published"
+  "status": "Candidate: 48 collector and 30 probe offline tests passed; first live candidate run received WDA HTML and failed closed; one separately authorized WDA-only diagnostic run pending; sources disabled; no source content published"
 }

@@ -43,9 +43,26 @@ class WdaDiagnosticsTests(unittest.TestCase):
         d = p.wda_response_diagnostics(body, 'text/html')
         self.assertEqual(d['text_marker_categories'], [])
 
+    def test_nested_templates_remain_inert(self):
+        body = b'<html><body><template><template>neutral</template>access denied</template>Neutral visible body</body></html>'
+        d = p.wda_response_diagnostics(body, 'text/html')
+        self.assertEqual(d['text_marker_categories'], [])
+
+    def test_self_closing_template_syntax_stays_inert(self):
+        body = b'<html><body><template/>access denied</template>Neutral visible body</body></html>'
+        d = p.wda_response_diagnostics(body, 'text/html')
+        self.assertEqual(d['text_marker_categories'], [])
+
     def test_marker_words_in_rss_content_are_not_classified(self):
         body = b'<rss><channel><item><title>Access denied</title></item></channel></rss>'
         d = p.wda_response_diagnostics(body, 'text/xml')
+        self.assertFalse(d['html_tag_observed'])
+        self.assertEqual(d['title_category'], 'unknown_or_absent')
+        self.assertEqual(d['text_marker_categories'], [])
+
+    def test_mislabeled_rss_cannot_claim_denial(self):
+        body = b'<rss><channel><item><title>Access denied</title></item></channel></rss>'
+        d = p.wda_response_diagnostics(body, 'text/html')
         self.assertFalse(d['html_tag_observed'])
         self.assertEqual(d['title_category'], 'unknown_or_absent')
         self.assertEqual(d['text_marker_categories'], [])
@@ -56,6 +73,14 @@ class WdaDiagnosticsTests(unittest.TestCase):
         self.assertEqual(d['inspected_bytes'], p.HTML_DIAGNOSTIC_BYTES)
         self.assertTrue(d['inspection_truncated'])
         self.assertEqual(d['text_marker_categories'], [])
+
+    def test_truncated_title_cannot_claim_exact_denial_title(self):
+        start = b'<html><head><title>'
+        prefix = start + b' ' * (p.HTML_DIAGNOSTIC_BYTES - len(start) - len(b'Access Denied')) + b'Access Denied'
+        body = prefix + b' is a Fictional Book</title></head><body>Neutral</body></html>'
+        d = p.wda_response_diagnostics(body, 'text/html')
+        self.assertTrue(d['inspection_truncated'])
+        self.assertEqual(d['title_category'], 'unknown_or_absent')
 
     def test_challenge_title_and_html_entities_use_only_known_labels(self):
         body = b'<html><title>Access&#32;Denied</title><body>Verify you are human</body></html>'

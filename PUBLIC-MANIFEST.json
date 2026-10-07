@@ -13,7 +13,7 @@
     },
     "README.md": {
       "bytes": 7982,
-      "sha256": "45f65915b74ebe9a76e02ca36f705d5fde8eefc58709ef8b6996a09f7ff775c9"
+      "sha256": "8c990cc3ba128bf2cf908ebf2e42abfd8e7c712bf90b47aad7eacc7ad3d62c2c"
     },
     "collector/.gitignore": {
       "bytes": 54,
@@ -21,7 +21,7 @@
     },
     "collector/PACKAGE-MANIFEST.json": {
       "bytes": 2137,
-      "sha256": "aaf3a2a4f578625c668dac5729b18b79747d60874f624234e19522de41df3560"
+      "sha256": "404976b8d7b2387a5c149b7f2f7d0b3ca3cafe61e0b59a5706dbfb4d43b01216"
     },
     "collector/PARSER-REPAIR.md": {
       "bytes": 5501,
@@ -29,15 +29,15 @@
     },
     "collector/README.md": {
       "bytes": 17635,
-      "sha256": "588227fba1e07c8662902e86930f68224d2b2571b3b5a27aceead651f337b43f"
+      "sha256": "281311e23ef216554ece8ee886522ca2e946a0b1afea5d2735a12e98a0a74ab3"
     },
     "collector/TEST-RESULTS.txt": {
       "bytes": 5059,
       "sha256": "5177d802938e4d2362e5f988a7464d6125e8c5ec84cd480c251aed7fc4ba8ed9"
     },
     "collector/WDA-DIAGNOSTICS.md": {
-      "bytes": 3642,
-      "sha256": "6fd64309f85b3d4cd4b158954faae1419b5af65a6b8bd1dc682fcb534e0b3e99"
+      "bytes": 3834,
+      "sha256": "bb140aeac2e7d5e0d0f346d8a6a962e4ecd612b7af81bfcf775c1a1508a3c261"
     },
     "collector/collector.py": {
       "bytes": 16146,
@@ -116,8 +116,8 @@
       "sha256": "cdf761c3feedacb4c3184d4e44b380025d419a9f6f6fb90a7895283bdb95dbc7"
     },
     "tools/rss_health_probe.py": {
-      "bytes": 8668,
-      "sha256": "61f925eed154397c2c81cc3e2e4a8ac028bddcdf5d566907fd2f170f1ff1293c"
+      "bytes": 9340,
+      "sha256": "46079048d959bf25ad31d0b0bf6aaa26cb2984574b8603b987fe597194eb6182"
     },
     "tools/tests/fixtures/wda-request-rejected.html": {
       "bytes": 363,
@@ -132,8 +132,8 @@
       "sha256": "2a3e133fbfd45727944bd2146af57ac417fb2c8957c45adf0d0c2ac62fe52945"
     },
     "tools/tests/test_wda_diagnostics.py": {
-      "bytes": 5878,
-      "sha256": "1feef4ed4ee4e4b9109324a770161f4f865f386dd1082112a26f40e1f7b02ab4"
+      "bytes": 7316,
+      "sha256": "d887b57fb96f8a3738c9f74936b18d7572470107742b2b7b3b72df59c435f079"
     },
     "tools/verify_public.py": {
       "bytes": 1904,

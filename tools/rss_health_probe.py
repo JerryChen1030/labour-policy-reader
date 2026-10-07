@@ -23,24 +23,36 @@ class _DiagnosticHTML(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.text, self.title = [], []
-        self.html_tag, self.in_title, self.ignored = False, False, None
+        self.html_tag, self.in_title, self.first_tag = False, False, None
+        self.title_closed = False
+        self.ignored = []
 
     def handle_starttag(self, tag, attrs):
+        if self.first_tag is None:
+            self.first_tag = tag
         if tag == 'html':
             self.html_tag = True
-        if self.ignored is None and tag in ('script', 'style', 'template'):
-            self.ignored = tag
-        if tag == 'title' and self.ignored is None:
+        if tag in ('script', 'style', 'template'):
+            self.ignored.append(tag)
+        if tag == 'title' and not self.ignored:
             self.in_title = True
 
     def handle_endtag(self, tag):
-        if tag == self.ignored:
-            self.ignored = None
+        if self.ignored and tag == self.ignored[-1]:
+            self.ignored.pop()
         if tag == 'title':
+            if self.in_title and not self.ignored:
+                self.title_closed = True
             self.in_title = False
 
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        # HTML's non-void inert elements are not closed by a trailing slash.
+        if tag not in ('script', 'style', 'template', 'title'):
+            self.handle_endtag(tag)
+
     def handle_data(self, text):
-        if self.ignored is None:
+        if not self.ignored:
             self.text.append(text)
             if self.in_title:
                 self.title.append(text)
@@ -65,11 +77,15 @@ def wda_response_diagnostics(body, content_type):
         # Unsupported HTML syntax is not an invitation to repair/execute the page.
         return result
     result['html_tag_observed'] = parser.html_tag
+    if parser.first_tag != 'html':
+        # MIME alone is not evidence: a mislabeled RSS title is not a refusal.
+        return result
     title = ' '.join(' '.join(parser.title).lower().split())
     titles = {'request rejected': 'request_rejected', 'access denied': 'access_denied',
               '403 forbidden': 'forbidden', 'forbidden': 'forbidden',
               'just a moment...': 'challenge_page', 'security check': 'security_check'}
-    result['title_category'] = titles.get(title, 'unknown_or_absent')
+    if parser.title_closed and not parser.in_title:
+        result['title_category'] = titles.get(title, 'unknown_or_absent')
     text = ' '.join(' '.join(parser.text).lower().split())
     markers = {'request_rejected': ('the requested url was rejected', 'request rejected'),
                'access_denied': ('access denied',), 'request_blocked': ('request blocked',),

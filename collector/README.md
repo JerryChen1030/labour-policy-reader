@@ -4,7 +4,7 @@ A small Python 3.10+ standard-library program. It does not need OpenAI, an AI mo
 
 ## Current delivery status
 
-- Candidate parser repair on 2026-10-07: 48 collector + 26 probe offline tests; see [PARSER-REPAIR.md](PARSER-REPAIR.md) for the reproduced issues, source-local date contract and unresolved historical WDA response. The first candidate runner test completed with WDA HTML rejection; a separately authorized WDA-only follow-up is described in [WDA-DIAGNOSTICS.md](WDA-DIAGNOSTICS.md)
+- Candidate parser repair on 2026-10-07: 48 collector + 30 probe offline tests; see [PARSER-REPAIR.md](PARSER-REPAIR.md) for the reproduced issues, source-local date contract and unresolved historical WDA response. The first candidate runner test completed with WDA HTML rejection; a separately authorized WDA-only follow-up is described in [WDA-DIAGNOSTICS.md](WDA-DIAGNOSTICS.md)
 - Historical 2026-10-06 CLI attempts below failed during DNS resolution; a later metadata-only runner probe reached HTTP and parsing. These earlier receipts are retained as historical evidence, not current readiness claims
 - All three documented seed sources remain disabled and need an operator to resolve the environment limitation and review terms. This is **not** 76 operational sources or comprehensive policy coverage
 - This collector has no deployment, account, token, recurring schedule or automatic approval/publishing behavior; publication of the separately reviewed static reader is a different operation

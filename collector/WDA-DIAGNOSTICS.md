@@ -50,11 +50,14 @@ live attempt requires a new authorization.
 ## Offline verification
 
 The new synthetic tests fail against the prior implementation and pass with
-this diagnostic change. The full suite contains 48 collector and 26 probe
+this diagnostic change. The full suite contains 48 collector and 30 probe
 tests. Tests cover redaction, unknown HTML, script/comment exclusion, no RSS
 title classification, the 16 KiB limit, encoded text, no embedded-resource
 fetches, exactly one WDA child, invalid selectors, failure/timeout exit status,
-and the WDA-only manual workflow. The original 62 tests are retained.
+the WDA-only manual workflow, nested/self-closing templates, mislabeled RSS,
+and incomplete titles. Exact title classification requires a completely
+observed closing title tag; text-marker labels mean only recognized wording.
+The original 62 tests are retained.
 
 Fixtures are fictional. No captured WDA body or protection identifier is
 committed. Existing source-rights restrictions remain in force. The additional

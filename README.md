@@ -62,7 +62,7 @@ python3 collector.py --sources sources.json --state-dir private-state
 
 使用者已授權 `.github/workflows/manual-rss-health.yml`，只接受 `workflow_dispatch`；不接受 push、PR 或 cron 觸發，不自動發布文章。到 Actions → Manual RSS health metadata → Run workflow → 已核對 commit 的候選分支手動執行。不要短時間重複執行；首輪三來源驗證已完成；目前候選收到另一次僅限 WDA 的手動診斷授權，本輪 WDA 只試一次，未來重試先另行確認。沒有持久化退避狀態，不能當成例行蒐集器。
 
-工作限 5 分鐘、單一 `ubuntu-latest` 標準 GitHub-hosted runner、僅 `contents: read`，checkout 不保留憑證。沒有自訂 secrets、付費 runner、快取、artifact、git push 或候選資料檔案。先跑 48 項 collector 及 26 項 probe 離線測試，再只試 WDA 一次，不額外連線 MHLW 或 MOEL；每源子程序 70 秒上限，沿用 collector 的 HTTPS/public DNS/IP pin/TLS、15 秒 socket、2 MiB、最多 2,000 項、最多 3 次同 allowlist redirect 等限制。不繞過安全驗證、代理或來源存取限制。
+工作限 5 分鐘、單一 `ubuntu-latest` 標準 GitHub-hosted runner、僅 `contents: read`，checkout 不保留憑證。沒有自訂 secrets、付費 runner、快取、artifact、git push 或候選資料檔案。先跑 48 項 collector 及 30 項 probe 離線測試，再只試 WDA 一次，不額外連線 MHLW 或 MOEL；每源子程序 70 秒上限，沿用 collector 的 HTTPS/public DNS/IP pin/TLS、15 秒 socket、2 MiB、最多 2,000 項、最多 3 次同 allowlist redirect 等限制。不繞過安全驗證、代理或來源存取限制。
 
 只在記憶體複製設定用於 probe，repository 的三源仍 disabled。body 與候選內容只存在短命程序記憶體，不寫入檔案、log、摘要或 artifact。公開 log 只記來源 ID、HTTP/parse 狀態、accepted/skipped 數量、已知日期欄位覆盖、最後可解析日期、bytes、SHA-256 、白名單 MIME 與固定 parser 錯誤碼；不含標題、正文、個人姓名、email、原始日期字串或例外訊息。`last_date` 是已解析 publication/update 欄位最大值，不是生效日；MOEL 與 WDA 的來源當地日期另記 `published_local`，保留秒精度及 `timezone_unknown: true`，不擅自推算 UTC。`last_source_local_date` 是另列的來源當地曆日；`date_status` 區分 UTC 已知、當地日期但時區未知、資料不全與空 feed。未知格式仍保持未知。
 
