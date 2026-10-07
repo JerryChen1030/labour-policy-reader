@@ -82,3 +82,7 @@ and reserves underlying rights; its broader website reuse notice must not be
 treated as automatic permission to republish RSS content. The configured WDA
 URL is the English-feed candidate, not a substitution for Chinese news feeds.
 No source-use license is added or inferred by this repair.
+
+## Subsequent WDA-only follow-up
+
+The first candidate run completed as [37560311959](https://github.com/JerryChen1030/labour-policy-reader/actions/runs/37560311959). It passed the offline checks and MOEL local dates but received WDA HTML, which was rejected safely. A separately authorized one-attempt WDA-only diagnostic is documented in [WDA-DIAGNOSTICS.md](WDA-DIAGNOSTICS.md); the historical preparation statements above are preserved.

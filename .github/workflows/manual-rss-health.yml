@@ -20,5 +20,5 @@ jobs:
           python3 tools/verify_public.py
           python3 -m unittest discover -s tools/tests -v
           (cd collector && python3 -m unittest discover -s tests -v)
-      - name: One attempt per official source, metadata only
-        run: python3 tools/rss_health_probe.py
+      - name: One WDA-only diagnostic attempt, metadata only
+        run: python3 tools/rss_health_probe.py --only-source tw-wda-news

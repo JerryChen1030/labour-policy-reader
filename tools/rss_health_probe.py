@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """One-shot, metadata-only RSS health check. Never persists feed or candidates."""
 import hashlib
+from html.parser import HTMLParser
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -13,6 +15,71 @@ import collector
 SOURCE_IDS = ('jp-mhlw-news', 'kr-moel-policy', 'tw-wda-news')
 SAFE_ERRORS = {'redirect_limit_or_missing_location', 'redirect_limit',
                'unsupported_content_encoding', 'response_too_large', 'fetch_deadline'}
+HTML_DIAGNOSTIC_BYTES = 16 * 1024
+
+
+class _DiagnosticHTML(HTMLParser):
+    """Transient bounded text inspection only; never executes or returns HTML."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.text, self.title = [], []
+        self.html_tag, self.in_title, self.ignored = False, False, None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'html':
+            self.html_tag = True
+        if self.ignored is None and tag in ('script', 'style', 'template'):
+            self.ignored = tag
+        if tag == 'title' and self.ignored is None:
+            self.in_title = True
+
+    def handle_endtag(self, tag):
+        if tag == self.ignored:
+            self.ignored = None
+        if tag == 'title':
+            self.in_title = False
+
+    def handle_data(self, text):
+        if self.ignored is None:
+            self.text.append(text)
+            if self.in_title:
+                self.title.append(text)
+
+
+def wda_response_diagnostics(body, content_type):
+    """Return fixed labels, never titles, text, identifiers, addresses or URLs."""
+    sample = body[:HTML_DIAGNOSTIC_BYTES]
+    result = dict(inspected_bytes=len(sample), inspection_truncated=len(body) > len(sample),
+                  html_tag_observed=False, doctype_observed=bool(re.search(br'<!\s*DOCTYPE', sample, re.I)),
+                  entity_declaration_observed=bool(re.search(br'<!\s*ENTITY', sample, re.I)),
+                  title_category='unknown_or_absent', text_marker_categories=[])
+    leading = sample.removeprefix(b'\xef\xbb\xbf')
+    html_hint = re.match(br'\s*(?:<\?xml[^>]*>\s*)?(?:<!doctype\s+html(?:\s|>)|<html(?:\s|>))', leading, re.I)
+    if content_type != 'text/html' and not html_hint:
+        return result
+    parser = _DiagnosticHTML()
+    try:
+        parser.feed(sample.decode('utf-8', errors='replace'))
+        parser.close()
+    except (ValueError, AssertionError):
+        # Unsupported HTML syntax is not an invitation to repair/execute the page.
+        return result
+    result['html_tag_observed'] = parser.html_tag
+    title = ' '.join(' '.join(parser.title).lower().split())
+    titles = {'request rejected': 'request_rejected', 'access denied': 'access_denied',
+              '403 forbidden': 'forbidden', 'forbidden': 'forbidden',
+              'just a moment...': 'challenge_page', 'security check': 'security_check'}
+    result['title_category'] = titles.get(title, 'unknown_or_absent')
+    text = ' '.join(' '.join(parser.text).lower().split())
+    markers = {'request_rejected': ('the requested url was rejected', 'request rejected'),
+               'access_denied': ('access denied',), 'request_blocked': ('request blocked',),
+               'human_verification': ('verify you are human', 'verify that you are human'),
+               'javascript_required': ('enable javascript', 'javascript is required'),
+               'unusual_traffic': ('unusual traffic',), 'policy_restriction': ('security policy',),
+               'rate_limited': ('too many requests',)}
+    result['text_marker_categories'] = sorted(label for label, phrases in markers.items()
+                                               if any(phrase in text for phrase in phrases))
+    return result
 
 
 def probe(source, fetcher=None):
@@ -29,6 +96,8 @@ def probe(source, fetcher=None):
         else:
             body, final_url = fetcher(source['url'], source['allowed_hosts'])
         result.update(http_status=200, bytes=len(body), sha256=hashlib.sha256(body).hexdigest())
+        if source['id'] == 'tw-wda-news':
+            result['response_diagnostics'] = wda_response_diagnostics(body, transport.get('content_type'))
         rows, skipped = collector.parse_feed(body, source, collector.stamp(), final_url)
         dates = [r[k] for r in rows for k in ('published_at', 'updated_at') if r[k]]
         local_dates = [r['published_local']['value'][:10] for r in rows if r['published_local']]
@@ -67,18 +136,23 @@ def probe(source, fetcher=None):
     return result
 
 
-def main():
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
     sources = json.loads((ROOT / 'collector/sources.json').read_text())['sources']
     assert tuple(s['id'] for s in sources) == SOURCE_IDS
     assert all(s['enabled'] is False for s in sources)
-    if len(sys.argv) == 3 and sys.argv[1] == '--source' and sys.argv[2] in SOURCE_IDS:
-        source = next(s for s in sources if s['id'] == sys.argv[2])
+    if len(argv) == 2 and argv[0] == '--source' and argv[1] in SOURCE_IDS:
+        source = next(s for s in sources if s['id'] == argv[1])
         print(json.dumps(probe(source), sort_keys=True), flush=True)
         return 0
-    if len(sys.argv) != 1:
+    if argv == ['--only-source', 'tw-wda-news']:
+        selected_ids = ('tw-wda-news',)
+    elif not argv:
+        selected_ids = SOURCE_IDS
+    else:
         return 2
     failed = False
-    for source_id in SOURCE_IDS:
+    for source_id in selected_ids:
         try:
             child = subprocess.run([sys.executable, __file__, '--source', source_id],
                                    capture_output=True, text=True, timeout=70, check=True)

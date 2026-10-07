@@ -6,15 +6,19 @@
     },
     {
       "path": "PARSER-REPAIR.md",
-      "sha256": "9fb4a563631b1558b629c9541d76a3f4f3f8c7e190b19dd966e590e3d765811c"
+      "sha256": "c817cd9c0559dc0165a71be1690ecd338443511dc8c61a04a73a3607b6ef147b"
     },
     {
       "path": "README.md",
-      "sha256": "100034326da9593d028aab0a8854dc4828eaafc8e4506c1e3785a3a1412a4e5b"
+      "sha256": "588227fba1e07c8662902e86930f68224d2b2571b3b5a27aceead651f337b43f"
     },
     {
       "path": "TEST-RESULTS.txt",
       "sha256": "5177d802938e4d2362e5f988a7464d6125e8c5ec84cd480c251aed7fc4ba8ed9"
+    },
+    {
+      "path": "WDA-DIAGNOSTICS.md",
+      "sha256": "6fd64309f85b3d4cd4b158954faae1419b5af65a6b8bd1dc682fcb534e0b3e99"
     },
     {
       "path": "collector.py",
@@ -53,5 +57,5 @@
       "sha256": "6fe94fdce475a61404fbc7f388975dc42d211f284e5de46bd7f54b77e986dc6b"
     }
   ],
-  "status": "Candidate: 48 collector and 14 probe offline tests passed on 2026-10-07; source-local dates do not imply UTC; historical WDA 2414-byte failure unresolved; one candidate runner test pending; sources disabled; no source content published"
+  "status": "Candidate: 48 collector and 26 probe offline tests passed; first live candidate run received WDA HTML and failed closed; one separately authorized WDA-only diagnostic run pending; sources disabled; no source content published"
 }
