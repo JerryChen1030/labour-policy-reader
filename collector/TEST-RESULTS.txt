@@ -1,5 +1,5 @@
-Offline suite re-run 2026-10-06 UTC. Live networking did not pass; see README receipt.
-
+Synthetic offline candidate tests, 2026-10-07 UTC. Live runner verification recorded separately.
+{"command": ["python3", "-m", "unittest", "discover", "-s", "tests", "-v"], "exit_code": 0, "wall_seconds": 1.291}
 test_429_retains_queue_and_reports_error (test_collector.CollectionTests.test_429_retains_queue_and_reports_error) ... ok
 test_backoff_skips_fetch (test_collector.CollectionTests.test_backoff_skips_fetch) ... ok
 test_collect_no_public_mutation (test_collector.CollectionTests.test_collect_no_public_mutation) ... ok
@@ -40,8 +40,16 @@ test_private_dns (test_collector.SecurityTests.test_private_dns) ... ok
 test_public_dns (test_collector.SecurityTests.test_public_dns) ... ok
 test_redirect_revalidation (test_collector.SecurityTests.test_redirect_revalidation) ... ok
 test_retry_after (test_collector.SecurityTests.test_retry_after) ... ok
+test_invalid_local_dates_fail_closed (test_source_dates.SourceDateTests.test_invalid_local_dates_fail_closed) ... ok
+test_local_date_change_produces_new_pending_version (test_source_dates.SourceDateTests.test_local_date_change_produces_new_pending_version) ... ok
+test_moel_local_date_preserved_without_inventing_timezone (test_source_dates.SourceDateTests.test_moel_local_date_preserved_without_inventing_timezone) ... ok
+test_unconfigured_local_date_stays_unknown (test_source_dates.SourceDateTests.test_unconfigured_local_date_stays_unknown) ... ok
+test_utc_dates_remain_separate (test_source_dates.SourceDateTests.test_utc_dates_remain_separate) ... ok
+test_wda_bom_and_inert_schema_attribute (test_source_dates.SourceDateTests.test_wda_bom_and_inert_schema_attribute) ... ok
+test_wda_datetime_field_is_source_specific (test_source_dates.SourceDateTests.test_wda_datetime_field_is_source_specific) ... ok
+test_wda_standard_publication_date_has_priority (test_source_dates.SourceDateTests.test_wda_standard_publication_date_has_priority) ... ok
 
 ----------------------------------------------------------------------
-Ran 40 tests in 0.972s
+Ran 48 tests in 1.158s
 
 OK

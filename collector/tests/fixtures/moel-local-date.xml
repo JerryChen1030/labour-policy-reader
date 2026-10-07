@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic MOEL-shaped fixture. Fictional dates, URLs and text; not policy evidence. -->
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel>
+<item><title>Synthetic local-date example</title><link>https://example.org/fictional-moel</link><description>Fictional test only</description><dc:date>2024-02-29 17:07:20</dc:date></item>
+</channel></rss>

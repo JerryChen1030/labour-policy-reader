@@ -25,6 +25,11 @@ MAX_REDIRECTS = 3
 MIN_INTERVAL = 3600
 RETENTION_DAYS = 90
 UTC = dt.timezone.utc
+SAFE_CONTENT_TYPES = frozenset({'application/atom+xml', 'application/rss+xml',
+                                'application/xml', 'text/xml', 'text/html', 'text/plain'})
+FEED_ERROR_CODES = frozenset({'response_too_large', 'xml_nul_encoding_forbidden',
+                             'xml_dtd_or_entities_forbidden', 'not_feed',
+                             'rss_channel_missing', 'too_many_feed_items'})
 
 
 def stamp():
@@ -47,6 +52,22 @@ def date(value):
         return parsed.astimezone(UTC).isoformat().replace('+00:00', 'Z')
     except (OverflowError, ValueError):
         return None  # Offset conversion can exceed datetime's representable range.
+
+
+def source_local_date(value, source_id):
+    """Preserve documented source formats without guessing their missing timezone."""
+    formats = {
+        'kr-moel-policy': (r'[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}', '%Y-%m-%d %H:%M:%S'),
+        'tw-wda-news': (r'[0-9]{8}T[0-9]{6}', '%Y%m%dT%H%M%S'),
+    }
+    pattern, fmt = formats.get(source_id, ('', ''))
+    if not pattern or not re.fullmatch(pattern, value):
+        return None
+    try:
+        parsed = dt.datetime.strptime(value, fmt)
+    except ValueError:
+        return None
+    return dict(value=parsed.isoformat(timespec='seconds'), precision='second', timezone_unknown=True)
 
 
 def canonical(url, hosts):
@@ -95,7 +116,14 @@ class FetchError(Exception):
         self.code, self.retry_after = code, retry_after
 
 
-def fetch(url, hosts):
+class FeedParseError(ValueError):
+    """A fixed diagnostic code, never a response fragment or XML error message."""
+    def __init__(self, code):
+        super().__init__(code)
+        self.code = code
+
+
+def fetch(url, hosts, metadata=None):
     deadline = time.monotonic() + 45
     for hop in range(MAX_REDIRECTS + 1):
         url = canonical(url, hosts)
@@ -112,6 +140,9 @@ def fetch(url, hosts):
                     raise FetchError('redirect_limit_or_missing_location')
                 url = urllib.parse.urljoin(url, res.getheader('Location'))
                 continue
+            if metadata is not None:
+                mime = res.getheader('Content-Type', '').split(';', 1)[0].strip().lower()
+                metadata['content_type'] = mime if mime in SAFE_CONTENT_TYPES else 'other_or_missing'
             if res.status != 200:
                 raise FetchError('http_' + str(res.status), res.getheader('Retry-After'))
             if res.getheader('Content-Encoding', 'identity').lower() != 'identity':
@@ -151,18 +182,20 @@ def plain(value, limit):
 
 def parse_feed(body, source, fetched_at, final_url=None):
     if len(body) > MAX_BYTES:
-        raise ValueError('response_too_large')
-    if b'\x00' in body or re.search(br'<!\s*(DOCTYPE|ENTITY)', body, re.I):
-        raise ValueError('DTD/entities/non-UTF8 encoding forbidden')
+        raise FeedParseError('response_too_large')
+    if b'\x00' in body:
+        raise FeedParseError('xml_nul_encoding_forbidden')
+    if re.search(br'<!\s*(DOCTYPE|ENTITY)', body, re.I):
+        raise FeedParseError('xml_dtd_or_entities_forbidden')
     root = ET.fromstring(body)
     kind = local(root.tag)
     if kind not in ('rss', 'RDF', 'feed'):
-        raise ValueError('not RSS/RDF/Atom')
+        raise FeedParseError('not_feed')
     if kind == 'rss' and not any(local(n.tag) == 'channel' for n in root):
-        raise ValueError('RSS channel missing')
+        raise FeedParseError('rss_channel_missing')
     nodes = [n for n in root.iter() if local(n.tag) in ('item', 'entry')]
     if len(nodes) > MAX_ITEMS:
-        raise ValueError('too_many_feed_items')
+        raise FeedParseError('too_many_feed_items')
     rows, skipped = [], 0
     for node in nodes:
         atom = local(node.tag) == 'entry'
@@ -178,18 +211,24 @@ def parse_feed(body, source, fetched_at, final_url=None):
             skipped += 1
             continue
         published_raw = childtext(node, 'published') if atom else childtext(node, 'pubDate') or childtext(node, 'date')
+        if not atom and not published_raw and source['id'] == 'tw-wda-news':
+            published_raw = childtext(node, 'DateTime')
         updated_raw = childtext(node, 'updated')
+        published_local = source_local_date(published_raw, source['id'])
         content = dict(title=plain(childtext(node, 'title'), 500),
                        summary=plain(childtext(node, 'summary') or childtext(node, 'description') or childtext(node, 'content'), 2000),
                        published_at=date(published_raw), updated_at=date(updated_raw),
                        published_raw=published_raw[:200] or None, updated_raw=updated_raw[:200] or None)
         hash_input = dict(content, untruncated_title=childtext(node, 'title'),
                           untruncated_text=childtext(node, 'summary') or childtext(node, 'description') or childtext(node, 'content'))
+        if published_local is not None:
+            hash_input['published_local'] = published_local
         digest = hashlib.sha256(json.dumps(hash_input, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
         identity = hashlib.sha256((source['id'] + '\n' + url).encode()).hexdigest()
         rows.append(dict(id=identity + ':' + digest, document_id=identity,
                          source_id=source['id'], canonical_url=url, content_hash=digest,
-                         fetched_at=fetched_at, last_seen_at=fetched_at, status='pending', **content))
+                         fetched_at=fetched_at, last_seen_at=fetched_at, status='pending',
+                         published_local=published_local, **content))
     return rows, skipped
 
 

@@ -5,7 +5,7 @@
 ## 內容與獨立運行
 
 - `docs/`：可直接由 GitHub Pages 提供的 HTML、CSS、JavaScript 與 JSON，94 筆歷史公開線索、16 筆官方選讀及 91 個來源入口
-- `collector/`：Python 3.10+ 標準函式庫候選蒐集器，40 項離線測試；來源全部預設停用
+- `collector/`：Python 3.10+ 標準函式庫候選蒐集器，48 項離線測試；來源全部預設停用
 - `tools/verify_public.py`：清單雜湊、檔案邊界與靜態資料檢查
 
 沒有後端、OpenAI runtime、模型 API、金鑰、付費服務或排程。原先的 ChatGPT Site 僅為展示位置，執行此版本不需要該 Site 或 OpenAI 帳號。GitHub Pages 的免費方案、額度及可用性由 GitHub 決定，不能保證永久免費或永久在線。
@@ -60,12 +60,14 @@ python3 collector.py --sources sources.json --state-dir private-state
 
 ## 一次性手動 RSS 健康檢查
 
-使用者已授權 `.github/workflows/manual-rss-health.yml`，只接受 `workflow_dispatch`；不接受 push、PR 或 cron 觸發，不自動發布文章。到 Actions → Manual RSS health metadata → Run workflow → main 手動執行。不要短時間重複執行；本次授權每源一次，未來重試先另行確認。沒有持久化退避狀態，不能當成例行蒐集器。
+使用者已授權 `.github/workflows/manual-rss-health.yml`，只接受 `workflow_dispatch`；不接受 push、PR 或 cron 觸發，不自動發布文章。到 Actions → Manual RSS health metadata → Run workflow → 已核對 commit 的候選分支手動執行。不要短時間重複執行；本次授權每源一次，未來重試先另行確認。沒有持久化退避狀態，不能當成例行蒐集器。
 
-工作限 5 分鐘、單一 `ubuntu-latest` 標準 GitHub-hosted runner、僅 `contents: read`，checkout 不保留憑證。沒有自訂 secrets、付費 runner、快取、artifact、git push 或候選資料檔案。先跑 40 項 collector 及 8 項 probe 離線測試，再各試 MHLW、MOEL、WDA 一次；每源子程序 70 秒上限，沿用 collector 的 HTTPS/public DNS/IP pin/TLS、15 秒 socket、2 MiB、最多 2,000 項、最多 3 次同 allowlist redirect 等限制。不繞過安全驗證、代理或來源存取限制。
+工作限 5 分鐘、單一 `ubuntu-latest` 標準 GitHub-hosted runner、僅 `contents: read`，checkout 不保留憑證。沒有自訂 secrets、付費 runner、快取、artifact、git push 或候選資料檔案。先跑 48 項 collector 及 14 項 probe 離線測試，再各試 MHLW、MOEL、WDA 一次；每源子程序 70 秒上限，沿用 collector 的 HTTPS/public DNS/IP pin/TLS、15 秒 socket、2 MiB、最多 2,000 項、最多 3 次同 allowlist redirect 等限制。不繞過安全驗證、代理或來源存取限制。
 
-只在記憶體複製設定用於 probe，repository 的三源仍 disabled。body 與候選內容只存在短命程序記憶體，不寫入檔案、log、摘要或 artifact。公開 log 只記來源 ID、HTTP/parse 狀態、accepted/skipped 數量、已知日期欄位覆盖、最後可解析日期、bytes、SHA-256 與白名單錯誤碼；不含標題、正文、個人姓名、email、原始日期字串或例外訊息。`last_date` 是已解析 publication/update 欄位最大值，不是生效日；自訂 `DateTime` 等未支援欄位保持未知。
+只在記憶體複製設定用於 probe，repository 的三源仍 disabled。body 與候選內容只存在短命程序記憶體，不寫入檔案、log、摘要或 artifact。公開 log 只記來源 ID、HTTP/parse 狀態、accepted/skipped 數量、已知日期欄位覆盖、最後可解析日期、bytes、SHA-256 、白名單 MIME 與固定 parser 錯誤碼；不含標題、正文、個人姓名、email、原始日期字串或例外訊息。`last_date` 是已解析 publication/update 欄位最大值，不是生效日；MOEL 與 WDA 的來源當地日期另記 `published_local`，保留秒精度及 `timezone_unknown: true`，不擅自推算 UTC。`last_source_local_date` 是另列的來源當地曆日；`date_status` 區分 UTC 已知、當地日期但時區未知、資料不全與空 feed。未知格式仍保持未知。
 
 失敗、部分解析、日期未知不等於沒有新政策。成功亦只證明該次回應可讀，不證明內容正確、全面或可再散布。MHLW 使用限制仍適用，嚴禁將 feed 內容移入公開網站。這個工作不改 `docs/`，既有 Pages 平台部署只提供已提交靜態資料。
 
 費用：依 2026-10-06 核對的 [GitHub 官方規則](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)，public repository 的標準 GitHub-hosted runner 使用免費，本次預期 runner 費用 US$0。這不是永久免費承諾；平台仍有服務、並行及使用限制，改成 private repository 或非標準 runner 前必須重新核對並取得授權。
+
+候選修正與限制詳見 [parser repair receipt](collector/PARSER-REPAIR.md)。先前 WDA 2,414-byte 回應的根因仍未知；現在有效的 RSS 回應不能倒推該次失敗原因。三源手動驗證要以候選 commit 的實際 run 為準。
