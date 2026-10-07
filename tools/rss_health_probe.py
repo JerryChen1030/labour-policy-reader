@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """One-shot, metadata-only RSS health check. Never persists feed or candidates."""
 import hashlib
+from html.parser import HTMLParser
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -13,26 +15,125 @@ import collector
 SOURCE_IDS = ('jp-mhlw-news', 'kr-moel-policy', 'tw-wda-news')
 SAFE_ERRORS = {'redirect_limit_or_missing_location', 'redirect_limit',
                'unsupported_content_encoding', 'response_too_large', 'fetch_deadline'}
+HTML_DIAGNOSTIC_BYTES = 16 * 1024
 
 
-def probe(source, fetcher=collector.fetch):
+class _DiagnosticHTML(HTMLParser):
+    """Transient bounded text inspection only; never executes or returns HTML."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.text, self.title = [], []
+        self.html_tag, self.in_title, self.first_tag = False, False, None
+        self.title_closed = False
+        self.ignored = []
+
+    def handle_starttag(self, tag, attrs):
+        if self.first_tag is None:
+            self.first_tag = tag
+        if tag == 'html':
+            self.html_tag = True
+        if tag in ('script', 'style', 'template'):
+            self.ignored.append(tag)
+        if tag == 'title' and not self.ignored:
+            self.in_title = True
+
+    def handle_endtag(self, tag):
+        if self.ignored and tag == self.ignored[-1]:
+            self.ignored.pop()
+        if tag == 'title':
+            if self.in_title and not self.ignored:
+                self.title_closed = True
+            self.in_title = False
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        # HTML's non-void inert elements are not closed by a trailing slash.
+        if tag not in ('script', 'style', 'template', 'title'):
+            self.handle_endtag(tag)
+
+    def handle_data(self, text):
+        if not self.ignored:
+            self.text.append(text)
+            if self.in_title:
+                self.title.append(text)
+
+
+def wda_response_diagnostics(body, content_type):
+    """Return fixed labels, never titles, text, identifiers, addresses or URLs."""
+    sample = body[:HTML_DIAGNOSTIC_BYTES]
+    result = dict(inspected_bytes=len(sample), inspection_truncated=len(body) > len(sample),
+                  html_tag_observed=False, doctype_observed=bool(re.search(br'<!\s*DOCTYPE', sample, re.I)),
+                  entity_declaration_observed=bool(re.search(br'<!\s*ENTITY', sample, re.I)),
+                  title_category='unknown_or_absent', text_marker_categories=[])
+    leading = sample.removeprefix(b'\xef\xbb\xbf')
+    html_hint = re.match(br'\s*(?:<\?xml[^>]*>\s*)?(?:<!doctype\s+html(?:\s|>)|<html(?:\s|>))', leading, re.I)
+    if content_type != 'text/html' and not html_hint:
+        return result
+    parser = _DiagnosticHTML()
+    try:
+        parser.feed(sample.decode('utf-8', errors='replace'))
+        parser.close()
+    except (ValueError, AssertionError):
+        # Unsupported HTML syntax is not an invitation to repair/execute the page.
+        return result
+    result['html_tag_observed'] = parser.html_tag
+    if parser.first_tag != 'html':
+        # MIME alone is not evidence: a mislabeled RSS title is not a refusal.
+        return result
+    title = ' '.join(' '.join(parser.title).lower().split())
+    titles = {'request rejected': 'request_rejected', 'access denied': 'access_denied',
+              '403 forbidden': 'forbidden', 'forbidden': 'forbidden',
+              'just a moment...': 'challenge_page', 'security check': 'security_check'}
+    if parser.title_closed and not parser.in_title:
+        result['title_category'] = titles.get(title, 'unknown_or_absent')
+    text = ' '.join(' '.join(parser.text).lower().split())
+    markers = {'request_rejected': ('the requested url was rejected', 'request rejected'),
+               'access_denied': ('access denied',), 'request_blocked': ('request blocked',),
+               'human_verification': ('verify you are human', 'verify that you are human'),
+               'javascript_required': ('enable javascript', 'javascript is required'),
+               'unusual_traffic': ('unusual traffic',), 'policy_restriction': ('security policy',),
+               'rate_limited': ('too many requests',)}
+    result['text_marker_categories'] = sorted(label for label, phrases in markers.items()
+                                               if any(phrase in text for phrase in phrases))
+    return result
+
+
+def probe(source, fetcher=None):
     # Only this in-memory copy is enabled; repository source configuration is untouched.
     source = dict(source, enabled=True)
     result = dict(source_id=source['id'], status='error', http_status=None,
                   items=None, skipped_items=None, date_field_coverage=None,
-                  last_date=None, bytes=None, sha256=None, error=None)
+                  last_date=None, last_source_local_date=None, date_status=None,
+                  content_type=None, bytes=None, sha256=None, error=None)
+    transport = {}
     try:
-        body, final_url = fetcher(source['url'], source['allowed_hosts'])
+        if fetcher is None:
+            body, final_url = collector.fetch(source['url'], source['allowed_hosts'], metadata=transport)
+        else:
+            body, final_url = fetcher(source['url'], source['allowed_hosts'])
         result.update(http_status=200, bytes=len(body), sha256=hashlib.sha256(body).hexdigest())
+        if source['id'] == 'tw-wda-news':
+            result['response_diagnostics'] = wda_response_diagnostics(body, transport.get('content_type'))
         rows, skipped = collector.parse_feed(body, source, collector.stamp(), final_url)
         dates = [r[k] for r in rows for k in ('published_at', 'updated_at') if r[k]]
+        local_dates = [r['published_local']['value'][:10] for r in rows if r['published_local']]
+        utc_items = sum(bool(r['published_at'] or r['updated_at']) for r in rows)
+        known_items = sum(bool(r['published_at'] or r['updated_at'] or r['published_local']) for r in rows)
+        date_status = ('empty_feed' if not rows else 'utc_known' if utc_items == len(rows)
+                       else 'source_local_timezone_unknown' if known_items == len(rows)
+                       else 'incomplete_or_unknown')
         result.update(status='partial' if skipped else 'ok', items=len(rows), skipped_items=skipped,
                       date_field_coverage=dict(accepted_items=len(rows),
                           published_raw=sum(bool(r['published_raw']) for r in rows),
                           updated_raw=sum(bool(r['updated_raw']) for r in rows),
                           published_parsed=sum(bool(r['published_at']) for r in rows),
+                          published_local=len(local_dates),
                           updated_parsed=sum(bool(r['updated_at']) for r in rows)),
-                      last_date=max(dates) if dates else None)
+                      last_date=max(dates) if dates else None,
+                      last_source_local_date=max(local_dates) if local_dates else None,
+                      date_status=date_status)
+    except collector.FeedParseError as exc:
+        result['error'] = exc.code if exc.code in collector.FEED_ERROR_CODES else 'feed_parse_error'
     except collector.FetchError as exc:
         code = exc.code
         if isinstance(code, str) and code.startswith('http_') and code[5:].isdigit() and len(code) == 8:
@@ -45,21 +146,29 @@ def probe(source, fetcher=collector.fetch):
             'gaierror', 'TimeoutError', 'SSLError', 'SSLCertVerificationError',
             'ConnectionResetError', 'ConnectionRefusedError', 'OSError', 'ParseError', 'ValueError'
         } else 'probe_error'
+    mime = transport.get('content_type')
+    if mime is not None:
+        result['content_type'] = mime if mime in collector.SAFE_CONTENT_TYPES else 'other_or_missing'
     return result
 
 
-def main():
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
     sources = json.loads((ROOT / 'collector/sources.json').read_text())['sources']
     assert tuple(s['id'] for s in sources) == SOURCE_IDS
     assert all(s['enabled'] is False for s in sources)
-    if len(sys.argv) == 3 and sys.argv[1] == '--source' and sys.argv[2] in SOURCE_IDS:
-        source = next(s for s in sources if s['id'] == sys.argv[2])
+    if len(argv) == 2 and argv[0] == '--source' and argv[1] in SOURCE_IDS:
+        source = next(s for s in sources if s['id'] == argv[1])
         print(json.dumps(probe(source), sort_keys=True), flush=True)
         return 0
-    if len(sys.argv) != 1:
+    if argv == ['--only-source', 'tw-wda-news']:
+        selected_ids = ('tw-wda-news',)
+    elif not argv:
+        selected_ids = SOURCE_IDS
+    else:
         return 2
     failed = False
-    for source_id in SOURCE_IDS:
+    for source_id in selected_ids:
         try:
             child = subprocess.run([sys.executable, __file__, '--source', source_id],
                                    capture_output=True, text=True, timeout=70, check=True)

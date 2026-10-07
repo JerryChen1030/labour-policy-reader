@@ -1,39 +1,47 @@
 {
   "format": "public-policy-source-release-v1",
-  "preparedAt": "2026-10-06",
-  "publicationStatus": "prepared; verify remote commit and Pages deployment separately",
+  "preparedAt": "2026-10-07",
+  "publicationStatus": "candidate parser repair; draft PR only; no main merge or deployment",
   "files": {
     ".github/workflows/manual-rss-health.yml": {
-      "bytes": 743,
-      "sha256": "3797b8ffd62dd277bafc29a0a33f4697a5ba64c893a76a9ddf333e6c19ae05ca"
+      "bytes": 769,
+      "sha256": "dbce3ff4214b25ee4b058638a7ff8424723a32085224c045dc8f17c546e22dd1"
     },
     ".gitignore": {
       "bytes": 86,
       "sha256": "83e95fd186e19a75d660382460dcd41b4896f563992db6ab88b6e8b5ccc4304d"
     },
     "README.md": {
-      "bytes": 7086,
-      "sha256": "f822b84bc2af1804aeec20e59af34a5ac1065074a96a77522de8cc8bc6cab9a8"
+      "bytes": 7982,
+      "sha256": "8c990cc3ba128bf2cf908ebf2e42abfd8e7c712bf90b47aad7eacc7ad3d62c2c"
     },
     "collector/.gitignore": {
       "bytes": 54,
       "sha256": "7b1842ff8cd2c1a9b8c84d27ca2f391af82be7ec978a1a9bf09541a52f4f0d11"
     },
     "collector/PACKAGE-MANIFEST.json": {
-      "bytes": 1430,
-      "sha256": "5045c4f3441d136b989f33be6bf2bc527b709f8cda67658caafe9c1a19ed74b3"
+      "bytes": 2137,
+      "sha256": "404976b8d7b2387a5c149b7f2f7d0b3ca3cafe61e0b59a5706dbfb4d43b01216"
+    },
+    "collector/PARSER-REPAIR.md": {
+      "bytes": 5501,
+      "sha256": "c817cd9c0559dc0165a71be1690ecd338443511dc8c61a04a73a3607b6ef147b"
     },
     "collector/README.md": {
-      "bytes": 16820,
-      "sha256": "1adcea7322059d6dd48c03af04abff111975b6362e302193ae836b6beec9c40f"
+      "bytes": 17635,
+      "sha256": "281311e23ef216554ece8ee886522ca2e946a0b1afea5d2735a12e98a0a74ab3"
     },
     "collector/TEST-RESULTS.txt": {
-      "bytes": 3887,
-      "sha256": "a3d3986abefd224080f34fd6465e521be2ef97b681f422df8593677e1b1eff14"
+      "bytes": 5059,
+      "sha256": "5177d802938e4d2362e5f988a7464d6125e8c5ec84cd480c251aed7fc4ba8ed9"
+    },
+    "collector/WDA-DIAGNOSTICS.md": {
+      "bytes": 3834,
+      "sha256": "bb140aeac2e7d5e0d0f346d8a6a962e4ecd612b7af81bfcf775c1a1508a3c261"
     },
     "collector/collector.py": {
-      "bytes": 14211,
-      "sha256": "4d4a832b7918e745abf541f0b22e02294a6f671eda868f10927634c1bfaf0e30"
+      "bytes": 16146,
+      "sha256": "a3829b70d0cb2ac74c050b66d773346cbfea9e51566c0061088861f1dc101255"
     },
     "collector/sources.json": {
       "bytes": 1733,
@@ -47,13 +55,25 @@
       "bytes": 394,
       "sha256": "73fa0bb9845fa6853544142808012a555e0a22a50f39a4a812ec01105d744d86"
     },
+    "collector/tests/fixtures/moel-local-date.xml": {
+      "bytes": 410,
+      "sha256": "2cda884b1f89d31f79c6692d83942e4b4517c1775a8e6adfa439dfc11c3063d5"
+    },
     "collector/tests/fixtures/rss.xml": {
       "bytes": 395,
       "sha256": "d9a372190a14f04b725d78855f9b02156032e1ac8b7f40ac24eb617c630c2dfa"
     },
+    "collector/tests/fixtures/wda-local-date.xml": {
+      "bytes": 364,
+      "sha256": "54e40f04d083289a6a97aab01eef8c130b6a7795fda0022a4fa09ae70ccc2f3b"
+    },
     "collector/tests/test_collector.py": {
       "bytes": 14721,
       "sha256": "a64bc675781c680f9985f0258370890876f6aa049fdb93edd0d3ea988a4c339e"
+    },
+    "collector/tests/test_source_dates.py": {
+      "bytes": 4352,
+      "sha256": "6fe94fdce475a61404fbc7f388975dc42d211f284e5de46bd7f54b77e986dc6b"
     },
     "docs/.nojekyll": {
       "bytes": 0,
@@ -96,12 +116,24 @@
       "sha256": "cdf761c3feedacb4c3184d4e44b380025d419a9f6f6fb90a7895283bdb95dbc7"
     },
     "tools/rss_health_probe.py": {
-      "bytes": 3802,
-      "sha256": "651dea8375dd5525f9372d8b3ae3c14f63936dc45fd4f34c7b0a35439487f965"
+      "bytes": 9340,
+      "sha256": "46079048d959bf25ad31d0b0bf6aaa26cb2984574b8603b987fe597194eb6182"
+    },
+    "tools/tests/fixtures/wda-request-rejected.html": {
+      "bytes": 363,
+      "sha256": "c5ede100e62220391a0f75e1161865d8bb0749d3a9f9f615cf70286c760c8c01"
     },
     "tools/tests/test_rss_health_probe.py": {
       "bytes": 3336,
       "sha256": "6eae8277feaedb58f8ba5e37c51ec64fd8fd4ad833b64e3869e76c1d89b64801"
+    },
+    "tools/tests/test_source_diagnostics.py": {
+      "bytes": 4436,
+      "sha256": "2a3e133fbfd45727944bd2146af57ac417fb2c8957c45adf0d0c2ac62fe52945"
+    },
+    "tools/tests/test_wda_diagnostics.py": {
+      "bytes": 7316,
+      "sha256": "d887b57fb96f8a3738c9f74936b18d7572470107742b2b7b3b72df59c435f079"
     },
     "tools/verify_public.py": {
       "bytes": 1904,

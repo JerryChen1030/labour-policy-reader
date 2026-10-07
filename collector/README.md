@@ -4,7 +4,8 @@ A small Python 3.10+ standard-library program. It does not need OpenAI, an AI mo
 
 ## Current delivery status
 
-- 40 offline tests passed again on 2026-10-06. Three-source CLI live smoke was attempted, but all failed during DNS resolution before any HTTP response; no feed passed live validation
+- Candidate parser repair on 2026-10-07: 48 collector + 30 probe offline tests; see [PARSER-REPAIR.md](PARSER-REPAIR.md) for the reproduced issues, source-local date contract and unresolved historical WDA response. The first candidate runner test completed with WDA HTML rejection; a separately authorized WDA-only follow-up is described in [WDA-DIAGNOSTICS.md](WDA-DIAGNOSTICS.md)
+- Historical 2026-10-06 CLI attempts below failed during DNS resolution; a later metadata-only runner probe reached HTTP and parsing. These earlier receipts are retained as historical evidence, not current readiness claims
 - All three documented seed sources remain disabled and need an operator to resolve the environment limitation and review terms. This is **not** 76 operational sources or comprehensive policy coverage
 - This collector has no deployment, account, token, recurring schedule or automatic approval/publishing behavior; publication of the separately reviewed static reader is a different operation
 - Fixtures in `tests/fixtures` are clearly marked synthetic and must never be published as policy findings
@@ -86,11 +87,12 @@ Each candidate has:
 - `document_id`, `source_id`, `canonical_url`, `content_hash`
 - `title` (at most 500 characters), `summary` (at most 2,000 characters), both untrusted feed text
 - `published_at` and `updated_at`: separate UTC timestamps or null; `published_raw`/`updated_raw` retain bounded source values
+- `published_local`: optional nullable source-local evidence with `value`, `precision: "second"`, and `timezone_unknown: true`; only the observed MOEL/WDA publication formats are recognized. Older queue rows may lack this additive field
 - `fetched_at` (first observation of retained version), `last_seen_at`, `status: "pending"`
 
 HTML-like markup is removed from text, but the output is not an HTML sanitizer. Render with `textContent`, never insert feed strings as HTML. Content hashes include untruncated title/text and dates as parsed from the feed; they are version markers, not signatures or proof of provenance. They do not detect changes to linked article/PDF bodies absent from the feed. Changed feed content yields another pending version; same-version repeat sightings deduplicate. Canonicalization removes fragments and default ports; it deliberately preserves query parameters and path case so distinct documents are not silently merged. Tracking-parameter variants and different source IDs can remain distinct.
 
-Unknown, invalid, date-only, timezone-less or UTC-out-of-range dates remain null. Relative item URLs resolve against the final feed URL after validated redirects. Never replace them with fetch time. The collector does not infer effective dates. Feed HTTP errors, 429s, invalid XML and unexpected HTML are error statuses, not “no new policy.” `partial` records skipped item links and exits nonzero; inspect these before interpreting coverage. `last_success_at` survives later errors; `last_result_status` preserves the last attempted outcome while a source is deferred. Deferred errors/partial results keep a nonzero exit status. A successful empty feed is only zero entries in that feed response.
+Unknown, invalid, date-only or UTC-out-of-range dates remain null. Timezone-less values never populate UTC fields. Strictly recognized MOEL/WDA publication formats may populate separate source-local evidence without a timezone assumption. Relative item URLs resolve against the final feed URL after validated redirects. Never replace them with fetch time. The collector does not infer effective dates. Feed HTTP errors, 429s, invalid XML and unexpected HTML are error statuses, not “no new policy.” `partial` records skipped item links and exits nonzero; inspect these before interpreting coverage. `last_success_at` survives later errors; `last_result_status` preserves the last attempted outcome while a source is deferred. Deferred errors/partial results keep a nonzero exit status. A successful empty feed is only zero entries in that feed response.
 
 ## Human review into the public reader
 
